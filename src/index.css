@@ -70,3 +70,100 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.signup__container {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .page__container {
+    margin: auto;
+    width: 96vw;
+    margin-top: 15px;
+  }
+
+  .page__container-top {
+    background: #f0f0f0;
+    height: 65vh;
+    border-radius: 50px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .page__container-bottom {
+    margin-top: 15px;
+    margin-bottom: 80px;
+    background: #23262f;
+    height: 30vh;
+    padding: 15px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .page__container-bottom h1 {
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+  }
+
+  .page__container-bottom p {
+    color: #c7c8cb;
+    font-size: 0.9rem;
+  }
+  /* ================== Balance Page ==================  */
+
+  .balance__container {
+    color: #fff;
+  }
+
+  .balance__container-top {
+    /* background: #246bfd; */
+    background: #246bfd;
+    min-height: 35vh;
+    padding: 10px;
+    padding-top: 70px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+
+  .balance__container-top h1 {
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 900;
+  }
+
+  .balance__container-top p {
+    text-align: center;
+  }
+
+  .balance__icons {
+    margin-top: 25px;
+    background: #ffffff;
+    color: #246bfd;
+    font-size: 3rem;
+    border-radius: 50%;
+    padding: 6px;
+    margin-bottom: 5px;
+  }
+
+  .balance__container-deposit {
+    background: #246bfd;
+    color: #ffffff;
+    padding: 16px;
+    border-radius: 14px;
+  }
+
+  .balance__container-withdraw {
+    background: #ffffff;
+    color: #246bfd;
+    border: 1px solid #246bfd;
+    padding: 16px;
+    border-radius: 14px;
+  }
+}
