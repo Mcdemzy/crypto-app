@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -69,6 +71,34 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+} */
+
+:root {
+  --color-bg: #0d121f;
+  --color-bg-variant: #00000040;
+  --color-white: #f3f5f7;
+  --color-purple: #7c5cfc;
+  --text-color: #040815;
+  --color-error: #ff4423;
+  --color-success: #9cd323;
+  --color-gray: #596780;
+  --color-gray-shade: #90a3bf;
+  --color-gray-variant: #1a202c;
+  --box-shadow: #00000040;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ::-webkit-scrollbar {
+  display: none;
+} */
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  /* color: var(--color-white); */
+  line-height: 1.7;
 }
 
 .signup__container {

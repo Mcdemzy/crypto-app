@@ -1,11 +1,13 @@
-import React from "react";
-
 import "./App.css";
 
-// import LandingPage from "";
+import LandingPage from "./component/landingpage/LandingPage.tsx";
 
 function App() {
-  return <></>;
+  return (
+    <div className="">
+      <LandingPage />
+    </div>
+  );
 }
 
 export default App;
