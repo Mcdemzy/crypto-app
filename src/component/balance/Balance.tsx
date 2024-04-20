@@ -4,6 +4,11 @@ import { FaMoneyBillTransfer } from "react-icons/fa6";
 import { AiOutlineRise } from "react-icons/ai";
 import { IoSwapHorizontalOutline } from "react-icons/io5";
 
+import { FaBitcoin } from "react-icons/fa6";
+import { FaEthereum } from "react-icons/fa";
+import { SiTether } from "react-icons/si";
+import { BsCoin } from "react-icons/bs";
+
 const Balance = () => {
   return (
     <>
@@ -35,12 +40,29 @@ const Balance = () => {
         </div>
 
         {/* balance__container-bottom */}
+        <div className="balance__container-bottom">
+          <div className="text-black mt-10 flex justify-center items-center gap-5">
+            <button className="balance__container-deposit">
+              Deposit Funds
+            </button>
+            <button className="balance__container-withdraw">
+              Withdraw Funds
+            </button>
+          </div>
 
-        <div className="balance__container-bottom text-black mt-10 flex justify-center items-center gap-5">
-          <button className="balance__container-deposit">Deposit Funds</button>
-          <button className="balance__container-withdraw">
-            Withdraw Funds
-          </button>
+          {/* Coins */}
+
+          <div>
+            <FaBitcoin className="text-black" />
+            <p>
+              Bitcoin <br />
+              BTC
+            </p>
+
+            <div>
+              $28962 <br /> <span>-4.28%</span>
+            </div>
+          </div>
         </div>
       </section>
     </>

@@ -91,9 +91,9 @@ html {
   scroll-behavior: smooth;
 }
 
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
   display: none;
-} */
+}
 
 body {
   font-family: "Ubuntu", sans-serif;
@@ -158,8 +158,9 @@ body {
     min-height: 35vh;
     padding: 10px;
     padding-top: 70px;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+    padding-bottom: 40px;
+    /* border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px; */
   }
 
   .balance__container-top h1 {
@@ -183,17 +184,21 @@ body {
   }
 
   .balance__container-deposit {
+    max-width: 200px;
     background: #246bfd;
     color: #ffffff;
     padding: 16px;
     border-radius: 14px;
+    font-size: 1.2rem;
   }
 
   .balance__container-withdraw {
+    max-width: 200px;
     background: #ffffff;
     color: #246bfd;
     border: 1px solid #246bfd;
     padding: 16px;
     border-radius: 14px;
+    font-size: 1.2rem;
   }
 }
