@@ -79,7 +79,8 @@ button:focus-visible {
   --color-variant: #060d17;
   --color-bg-white: #ffffff;
   --color-variant: #ffcc00;
-  --text-primary: #fed000;
+  --text-primary: #ffcc00;
+  --text-primary-variant: #75580c;
   --text-white: #ffffff;
   --text-gray: #a5a5a5;
   --text-black: #0d141c;
@@ -190,6 +191,31 @@ body {
     border-radius: 40%;
     margin-top: 70px;
     margin-right: 50px;
+  }
+
+  .landingpage__slide-three {
+    background: var(--text-primary);
+    height: 100vh;
+    padding-top: 120px;
+  }
+
+  .landingpage__slide-three img {
+    margin: auto;
+  }
+
+  .landingpage__slide-three h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 100px;
+    line-height: 40px;
+  }
+
+  .landingpage__slide-three p {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 20px;
+    color: var(--text-primary-variant);
   }
 
   /* ================== Balance Page ==================  */

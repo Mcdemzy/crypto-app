@@ -39,9 +39,20 @@ const LandingPage = () => {
       </section> */}
 
       {/* Slide 3 */}
-      <section className="landingpage__slide-three">
-        <img src={Shield} alt="" width={200} />
-      </section>
+      {/* <section className="landingpage__slide-three">
+        <img src={Shield} alt="" />
+        <h1>
+          Secure Funds and <br />
+          Instant Payouts
+        </h1>
+        <p>
+          Your funds are safe with us. Enjoy Instant <br />
+          Payouts with top-notch security.
+        </p>
+      </section> */}
+
+      {/* Slide 4 */}
+      <section className="landingpage__slide-four"></section>
     </>
   );
 };
