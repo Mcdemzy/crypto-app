@@ -6,7 +6,7 @@ import Banner from "./component/banner/Banner.tsx";
 function App() {
   return (
     <div className="">
-      {/* <LandingPage /> */}
+      <LandingPage />
       <Banner />
     </div>
   );
