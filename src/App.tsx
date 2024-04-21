@@ -2,12 +2,16 @@
 import LandingPage from "./component/landingpage/LandingPage.tsx";
 
 import Banner from "./component/banner/Banner.tsx";
+import Signin from "./component/signin/Signin.tsx";
+import Signup from "./component/signup/Signup.tsx";
 
 function App() {
   return (
     <div className="">
-      <LandingPage />
-      <Banner />
+      {/* <LandingPage />
+      <Banner /> */}
+      <Signin />
+      {/* <Signup /> */}
     </div>
   );
 }

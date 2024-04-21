@@ -9,7 +9,6 @@
   --color-bg-variant: #0d141c;
   --color-variant: #060d17;
   --color-bg-white: #ffffff;
-  --color-variant: #ffcc00;
   --text-primary: #ffcc00;
   --text-primary-variant: #75580c;
   --text-white: #ffffff;
@@ -30,10 +29,6 @@ body {
   font-family: "Ubuntu", sans-serif;
   /* color: var(--color-white); */
   line-height: 1.7;
-}
-
-.signup__container {
-  margin-top: 20px;
 }
 
 @media screen and (max-width: 600px) {
@@ -225,5 +220,66 @@ body {
     border-radius: 10px;
     font-size: 1.5rem;
     border: 1px solid var(--text-primary);
+  }
+
+  /* ================== Signin Page ==================  */
+
+  .signin__container {
+    background: var(--color-bg-variant);
+    color: var(--color-bg-white);
+    min-height: 100vh;
+    padding: 20px;
+    padding-top: 100px;
+  }
+
+  .signin__container h2 {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 100px;
+  }
+  .signin__container label {
+    display: block;
+  }
+
+  .signin__container input {
+    width: 90vw;
+    background: var(--color-variant);
+    padding: 10px;
+    border-radius: 10px;
+    color: var(--text-white);
+    margin-bottom: 20px;
+    outline: var(--color-bg-white);
+    border: 1px solid var(--text-gray);
+  }
+
+  .signin__container-forgot {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: end;
+    color: var(--text-primary);
+  }
+
+  .signin__container button {
+    width: 90vw;
+    background: var(--text-primary);
+    color: var(--text-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    border-radius: 10px;
+    margin: auto;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  .signin__container p {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .signin__container p a {
+    color: var(--text-primary);
   }
 }
