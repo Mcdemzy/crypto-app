@@ -1,9 +1,9 @@
-import Signin from "./component/signin/Signin.tsx";
+import Forgot from "./component/forgot/Forgot.tsx";
 
 function App() {
   return (
     <div className="">
-      <Signin />
+      <Forgot />
     </div>
   );
 }
