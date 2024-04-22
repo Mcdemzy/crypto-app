@@ -4,6 +4,8 @@ import Giftcard from "../../assets/giftcards.png";
 import Shield from "../../assets/security.png";
 import Bitcoin from "../../assets/bitcoin.png";
 
+import { Link } from "react-router-dom";
+
 // import Swiper core and required modules
 import { Pagination } from "swiper/modules";
 
@@ -11,9 +13,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
-// import "swiper/css/navigation";
 import "swiper/css/pagination";
-// import "swiper/css/scrollbar";
 
 const LandingPage = () => {
   return (
@@ -21,9 +21,6 @@ const LandingPage = () => {
       <Swiper
         spaceBetween={40}
         slidesPerView={1}
-        pagination={{
-          dynamicBullets: true,
-        }}
         modules={[Pagination]}
         className="mySwiper"
       >
@@ -74,7 +71,7 @@ const LandingPage = () => {
 
         {/* Slide 4 */}
         <SwiperSlide className="landingpage__slide-four">
-          <img src={Bitcoin} alt="" width={400} height={400} />
+          <img src={Bitcoin} alt="" width={250} height={250} />
           <h1>
             Do More With <br />
             Crypto

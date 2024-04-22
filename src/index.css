@@ -38,10 +38,10 @@ body {
   }
 
   .landingpage__slide-one {
-    height: 100vh;
+    min-height: 100vh;
     /* background: var(--color-bg);
      */
-    /* background-image: url(./assets/12893174_5072609.jpg); */
+    background-image: url(./assets/12893174_5072609.jpg);
     color: var(--text-white);
     background-size: cover;
     background-position: center;
@@ -77,8 +77,8 @@ body {
     background: var(--text-primary);
     float: right;
     color: var(--text-black);
-    padding: 20px;
-    width: 80px;
+    padding: 16px;
+    width: 70px;
     font-size: 2rem;
     border-radius: 40%;
     margin-top: 70px;
@@ -87,7 +87,7 @@ body {
 
   .landingpage__slide-two {
     height: 100vh;
-    padding-top: 200px;
+    padding-top: 100px;
   }
 
   .landingpage__slide-two h1 {
@@ -112,8 +112,8 @@ body {
     background: var(--text-primary);
     float: right;
     color: var(--text-black);
-    padding: 20px;
-    width: 80px;
+    padding: 16px;
+    width: 70px;
     font-size: 2rem;
     border-radius: 40%;
     margin-top: 70px;
@@ -123,7 +123,7 @@ body {
   .landingpage__slide-three {
     background: var(--text-primary);
     height: 100vh;
-    padding-top: 120px;
+    padding-top: 100px;
   }
 
   .landingpage__slide-three img {
@@ -153,7 +153,7 @@ body {
     font-size: 2.5rem;
     font-weight: 800;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
     line-height: 40px;
   }
 
@@ -293,5 +293,15 @@ body {
     font-size: 0.9rem;
     line-height: 20px;
     margin-bottom: 40px;
+  }
+
+  .signup__container h1 {
+    font-size: 2rem;
+  }
+  .signup__container p {
+    text-align: left;
+    font-size: 1rem;
+    color: var(--text-gray);
+    margin-bottom: 2rem;
   }
 }
