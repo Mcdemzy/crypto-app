@@ -8,6 +8,7 @@
   --color-bg: #000000;
   --color-bg-variant: #0d141c;
   --color-variant: #060d17;
+  --nav-bg: #151f2b;
   --color-bg-white: #ffffff;
   --text-primary: #ffcc00;
   --text-primary-variant: #75580c;
@@ -303,5 +304,26 @@ body {
     font-size: 1rem;
     color: var(--text-gray);
     margin-bottom: 2rem;
+  }
+
+  .navbar__container {
+    position: fixed;
+    background: var(--nav-bg);
+    color: var(--text-gray);
+    width: 100vw;
+    height: 16vh;
+    bottom: 0px;
+  }
+
+  .active__nav {
+    color: var(--text-primary);
+  }
+
+  .nav__icon {
+    font-size: 1.2rem;
+  }
+
+  .navbar__container span {
+    font-size: 0.9rem;
   }
 }
