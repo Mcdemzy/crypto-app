@@ -4,7 +4,7 @@ import Giftcard from "../../assets/giftcards.png";
 import Shield from "../../assets/security.png";
 import Bitcoin from "../../assets/bitcoin.png";
 
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 // import Swiper core and required modules
 import { Pagination } from "swiper/modules";
