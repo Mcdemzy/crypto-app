@@ -399,10 +399,6 @@ body {
     color: var(--text-primary);
   }
 
-  .crypto__assets span {
-    /* color: var(--text-white); */
-  }
-
   .crypto__assets-icon {
     font-size: 1.5rem;
   }
