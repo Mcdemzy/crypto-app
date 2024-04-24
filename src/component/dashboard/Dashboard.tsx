@@ -7,6 +7,11 @@ import { BsBoxArrowInLeft } from "react-icons/bs";
 import { BsBoxArrowInDownLeft } from "react-icons/bs";
 import { BsBoxArrowUpRight } from "react-icons/bs";
 import { BiShow } from "react-icons/bi";
+import { MdArrowDropUp } from "react-icons/md";
+// import { MdArrowDropDown } from "react-icons/md";
+import { MdOutlineArrowForwardIos } from "react-icons/md";
+
+import CryptoIcon1 from "../../assets/crypto1.png";
 
 import Cup from "../../assets/cup.png";
 
@@ -126,10 +131,143 @@ const Dashboard = () => {
 
         <div className="crypto__container">
           <div className="left__crypto-container">
-            <div></div>
-            <div></div>
+            <div>
+              <img src={CryptoIcon1} alt="" width={48} />
+            </div>
+            <div>
+              <p>
+                0.00 BCH <br />
+                <span>USD 0.00</span>
+              </p>
+            </div>
           </div>
-          <div className="right__crypto-container"></div>
+          <div className="right__crypto-container">
+            <div className="">
+              <MdArrowDropUp />
+              <span>+0%</span>
+            </div>
+            <MdOutlineArrowForwardIos className="crypto__assets-icon" />
+          </div>
+        </div>
+        <div className="crypto__container">
+          <div className="left__crypto-container">
+            <div>
+              <img src={CryptoIcon1} alt="" width={48} />
+            </div>
+            <div>
+              <p>
+                0.00 BCH <br />
+                <span>USD 0.00</span>
+              </p>
+            </div>
+          </div>
+          <div className="right__crypto-container">
+            <div className="">
+              <MdArrowDropUp />
+              <span>+0%</span>
+            </div>
+            <MdOutlineArrowForwardIos className="crypto__assets-icon" />
+          </div>
+        </div>
+        <div className="crypto__container">
+          <div className="left__crypto-container">
+            <div>
+              <img src={CryptoIcon1} alt="" width={48} />
+            </div>
+            <div>
+              <p>
+                0.00 BCH <br />
+                <span>USD 0.00</span>
+              </p>
+            </div>
+          </div>
+          <div className="right__crypto-container">
+            <div className="">
+              <MdArrowDropUp />
+              <span>+0%</span>
+            </div>
+            <MdOutlineArrowForwardIos className="crypto__assets-icon" />
+          </div>
+        </div>
+        <div className="crypto__container">
+          <div className="left__crypto-container">
+            <div>
+              <img src={CryptoIcon1} alt="" width={48} />
+            </div>
+            <div>
+              <p>
+                0.00 BCH <br />
+                <span>USD 0.00</span>
+              </p>
+            </div>
+          </div>
+          <div className="right__crypto-container">
+            <div className="">
+              <MdArrowDropUp />
+              <span>+0%</span>
+            </div>
+            <MdOutlineArrowForwardIos className="crypto__assets-icon" />
+          </div>
+        </div>
+        <div className="crypto__container">
+          <div className="left__crypto-container">
+            <div>
+              <img src={CryptoIcon1} alt="" width={48} />
+            </div>
+            <div>
+              <p>
+                0.00 BCH <br />
+                <span>USD 0.00</span>
+              </p>
+            </div>
+          </div>
+          <div className="right__crypto-container">
+            <div className="">
+              <MdArrowDropUp />
+              <span>+0%</span>
+            </div>
+            <MdOutlineArrowForwardIos className="crypto__assets-icon" />
+          </div>
+        </div>
+        <div className="crypto__container">
+          <div className="left__crypto-container">
+            <div>
+              <img src={CryptoIcon1} alt="" width={48} />
+            </div>
+            <div>
+              <p>
+                0.00 BCH <br />
+                <span>USD 0.00</span>
+              </p>
+            </div>
+          </div>
+          <div className="right__crypto-container">
+            <div className="">
+              <MdArrowDropUp />
+              <span>+0%</span>
+            </div>
+            <MdOutlineArrowForwardIos className="crypto__assets-icon" />
+          </div>
+        </div>
+        <div className="crypto__container">
+          <div className="left__crypto-container">
+            <div>
+              <img src={CryptoIcon1} alt="" width={48} />
+            </div>
+            <div>
+              <p>
+                0.00 BCH <br />
+                <span>USD 0.00</span>
+              </p>
+            </div>
+          </div>
+          <div className="right__crypto-container">
+            <div className="">
+              <MdArrowDropUp />
+              <span>+0%</span>
+            </div>
+            <MdOutlineArrowForwardIos className="crypto__assets-icon" />
+          </div>
         </div>
       </section>
     </>
