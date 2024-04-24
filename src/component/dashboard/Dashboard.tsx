@@ -6,6 +6,18 @@ import { BsBoxArrowInRight } from "react-icons/bs";
 import { BsBoxArrowInLeft } from "react-icons/bs";
 import { BsBoxArrowInDownLeft } from "react-icons/bs";
 import { BsBoxArrowUpRight } from "react-icons/bs";
+import { BiShow } from "react-icons/bi";
+
+import Cup from "../../assets/cup.png";
+
+// import Swiper core and required modules
+import { Pagination } from "swiper/modules";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
 
 const Dashboard = () => {
   return (
@@ -29,50 +41,90 @@ const Dashboard = () => {
         <div className="text-center mt-6">
           <h3>Total Balance</h3>
           <p className="text-[2.5rem] font-[700]">$0.00</p>
+        </div>
 
-          <div className="mt-6 dashboard__feature flex justify-around items-center w-[90vw] h-[16vh] m-auto bg-[#060d17] p-[10px] rounded-xl">
-            <a href="">
-              <div className="flex flex-col items-center">
-                <div className="bg-[#151F2B] h-8 w-12 flex justify-center items-center text-[1.2rem] rounded-xl">
-                  <BsBoxArrowInRight className="bg-[#151f2b] text-[#ffcc00] dashboard__icon" />
-                </div>
-                <span className="font-[400] text-[0.7rem]">Buy Crypto</span>
+        <div className="mt-6 dashboard__feature flex justify-around items-center w-[90vw] h-[16vh] m-auto bg-[#060d17] p-[10px] rounded-xl">
+          <a href="">
+            <div className="flex flex-col items-center">
+              <div className="bg-[#151F2B] h-8 w-12 flex justify-center items-center text-[1.2rem] rounded-xl">
+                <BsBoxArrowInRight className="bg-[#151f2b] text-[#ffcc00] dashboard__icon" />
               </div>
-            </a>
-            <a href="">
-              <div className="flex flex-col items-center">
-                <div className="bg-[#151F2B] h-8 w-12 flex justify-center items-center text-[1.2rem] rounded-xl">
-                  <BsBoxArrowInLeft className="bg-[#151f2b] text-[#ffcc00] dashboard__icon" />
-                </div>
-                <span className="font-[400] text-[0.7rem]">Sell Crypto</span>
+              <span className="font-[400] text-[0.7rem]">Buy Crypto</span>
+            </div>
+          </a>
+          <a href="">
+            <div className="flex flex-col items-center">
+              <div className="bg-[#151F2B] h-8 w-12 flex justify-center items-center text-[1.2rem] rounded-xl">
+                <BsBoxArrowInLeft className="bg-[#151f2b] text-[#ffcc00] dashboard__icon" />
               </div>
-            </a>
-            <a href="">
-              <div className="flex flex-col items-center">
-                <div className="bg-[#151F2B] h-8 w-12 flex justify-center items-center text-[1.2rem] rounded-xl">
-                  <AiOutlineSwap className="bg-[#151f2b] text-[#ffcc00] dashboard__icon" />
-                </div>
-                <span className="font-[400] text-[0.7rem]">Swap</span>
+              <span className="font-[400] text-[0.7rem]">Sell Crypto</span>
+            </div>
+          </a>
+          <a href="">
+            <div className="flex flex-col items-center">
+              <div className="bg-[#151F2B] h-8 w-12 flex justify-center items-center text-[1.2rem] rounded-xl">
+                <AiOutlineSwap className="bg-[#151f2b] text-[#ffcc00] dashboard__icon" />
               </div>
-            </a>
-            <a href="">
-              <div className="flex flex-col items-center">
-                <div className="bg-[#151F2B] h-8 w-12 flex justify-center items-center text-[1.2rem] rounded-xl">
-                  <BsBoxArrowInDownLeft className="bg-[#151f2b] text-[#ffcc00] dashboard__icon" />
-                </div>
-                <span className="font-[400] text-[0.7rem]">Deposit</span>
+              <span className="font-[400] text-[0.7rem]">Swap</span>
+            </div>
+          </a>
+          <a href="">
+            <div className="flex flex-col items-center">
+              <div className="bg-[#151F2B] h-8 w-12 flex justify-center items-center text-[1.2rem] rounded-xl">
+                <BsBoxArrowInDownLeft className="bg-[#151f2b] text-[#ffcc00] dashboard__icon" />
               </div>
-            </a>
-            <a href="">
-              <div className="flex flex-col items-center">
-                <div className="bg-[#151F2B] h-8 w-12 flex justify-center items-center text-[1.2rem] rounded-xl">
-                  <BsBoxArrowUpRight className="bg-[#151f2b] text-[#ffcc00] dashboard__icon" />
-                </div>
-                <span className="font-[400] text-[0.7rem]">Withdraw</span>
+              <span className="font-[400] text-[0.7rem]">Deposit</span>
+            </div>
+          </a>
+          <a href="">
+            <div className="flex flex-col items-center">
+              <div className="bg-[#151F2B] h-8 w-12 flex justify-center items-center text-[1.2rem] rounded-xl">
+                <BsBoxArrowUpRight className="bg-[#151f2b] text-[#ffcc00] dashboard__icon" />
               </div>
-            </a>
+              <span className="font-[400] text-[0.7rem]">Withdraw</span>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <Swiper
+        spaceBetween={40}
+        slidesPerView={1}
+        modules={[Pagination]}
+        className="mySwiper dashboard__banner"
+      >
+        <div className=" dashboard__banner">
+          <SwiperSlide className="dashboard__leader">
+            <h3>Leaderboard</h3>
+            <p>
+              You can be a winner by <br />
+              just trading.{" "}
+              <a href="">
+                Click here <br /> to view more
+              </a>
+            </p>
+            <img src={Cup} alt="" width={80} height={80} />
+          </SwiperSlide>
+
+          <SwiperSlide className="dashboard__kyc">
+            <h3>
+              Complete <br />
+              KYC Setup
+            </h3>
+          </SwiperSlide>
+        </div>
+      </Swiper>
+
+      <section className="crypto__assets">
+        <div>
+          <h3>All Crypto Assets</h3>
+          <div>
+            <span>Show</span>
+            <BiShow />
           </div>
         </div>
+
+        <div></div>
       </section>
     </>
   );
