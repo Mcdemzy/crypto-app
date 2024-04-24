@@ -135,151 +135,200 @@ const Dashboard = () => {
           </div>
         </div>
 
-        <div className="crypto__container">
-          <div className="left__crypto-container">
-            <div>
-              <img src={CryptoIcon1} alt="" width={48} />
+        {/*  */}
+        <a href="">
+          <div className="crypto__container">
+            <div className="left__crypto-container">
+              <div>
+                <img src={CryptoIcon1} alt="" width={48} />
+              </div>
+              <div>
+                <p>
+                  0.00 BCH <br />
+                  <span>USD 0.00</span>
+                </p>
+              </div>
             </div>
-            <div>
-              <p>
-                0.00 BCH <br />
-                <span>USD 0.00</span>
-              </p>
-            </div>
-          </div>
-          <div className="right__crypto-container">
-            <div className="">
-              <MdArrowDropUp />
-              <span>+0%</span>
-            </div>
-            <MdOutlineArrowForwardIos className="crypto__assets-icon" />
-          </div>
-        </div>
-        <div className="crypto__container">
-          <div className="left__crypto-container">
-            <div>
-              <img src={CryptoIcon2} alt="" width={48} />
-            </div>
-            <div>
-              <p>
-                0.00 BCH <br />
-                <span>USD 0.00</span>
-              </p>
+            <div className="right__crypto-container">
+              <div className="">
+                <MdArrowDropUp />
+                <span>+0%</span>
+              </div>
+              <MdOutlineArrowForwardIos className="crypto__assets-icon" />
             </div>
           </div>
-          <div className="right__crypto-container">
-            <div className="">
-              <MdArrowDropUp />
-              <span>+0%</span>
+        </a>
+        {/*  */}
+
+        {/*  */}
+        <a href="">
+          <div className="crypto__container">
+            <div className="left__crypto-container">
+              <div>
+                <img src={CryptoIcon2} alt="" width={48} />
+              </div>
+              <div>
+                <p>
+                  0.00 BNB <br />
+                  <span>USD 0.00</span>
+                </p>
+              </div>
             </div>
-            <MdOutlineArrowForwardIos className="crypto__assets-icon" />
-          </div>
-        </div>
-        <div className="crypto__container">
-          <div className="left__crypto-container">
-            <div>
-              <img src={CryptoIcon3} alt="" width={48} />
-            </div>
-            <div>
-              <p>
-                0.00 BCH <br />
-                <span>USD 0.00</span>
-              </p>
-            </div>
-          </div>
-          <div className="right__crypto-container">
-            <div className="">
-              <MdArrowDropUp />
-              <span>+0%</span>
-            </div>
-            <MdOutlineArrowForwardIos className="crypto__assets-icon" />
-          </div>
-        </div>
-        <div className="crypto__container">
-          <div className="left__crypto-container">
-            <div>
-              <img
-                src={CryptoIcon4}
-                alt=""
-                width={48}
-                className="bg-white rounded-full"
-              />
-            </div>
-            <div>
-              <p>
-                0.00 BCH <br />
-                <span>USD 0.00</span>
-              </p>
+            <div className="right__crypto-container">
+              <div className="">
+                <MdArrowDropUp />
+                <span>+0%</span>
+              </div>
+              <MdOutlineArrowForwardIos className="crypto__assets-icon" />
             </div>
           </div>
-          <div className="right__crypto-container">
-            <div className="">
-              <MdArrowDropUp />
-              <span>+0%</span>
+        </a>
+        {/*  */}
+
+        {/*  */}
+        <a href="">
+          <div className="crypto__container">
+            <div className="left__crypto-container">
+              <div>
+                <img src={CryptoIcon3} alt="" width={48} />
+              </div>
+              <div>
+                <p>
+                  0.00 BTC <br />
+                  <span>USD 0.00</span>
+                </p>
+              </div>
             </div>
-            <MdOutlineArrowForwardIos className="crypto__assets-icon" />
-          </div>
-        </div>
-        <div className="crypto__container">
-          <div className="left__crypto-container">
-            <div>
-              <img src={CryptoIcon5} alt="" width={48} />
-            </div>
-            <div>
-              <p>
-                0.00 BCH <br />
-                <span>USD 0.00</span>
-              </p>
-            </div>
-          </div>
-          <div className="right__crypto-container">
-            <div className="">
-              <MdArrowDropUp />
-              <span>+0%</span>
-            </div>
-            <MdOutlineArrowForwardIos className="crypto__assets-icon" />
-          </div>
-        </div>
-        <div className="crypto__container">
-          <div className="left__crypto-container">
-            <div>
-              <img src={CryptoIcon6} alt="" width={48} />
-            </div>
-            <div>
-              <p>
-                0.00 BCH <br />
-                <span>USD 0.00</span>
-              </p>
+            <div className="right__crypto-container">
+              <div className="">
+                <MdArrowDropUp />
+                <span>+0%</span>
+              </div>
+              <MdOutlineArrowForwardIos className="crypto__assets-icon" />
             </div>
           </div>
-          <div className="right__crypto-container">
-            <div className="">
-              <MdArrowDropUp />
-              <span>+0%</span>
+        </a>
+        {/*  */}
+
+        {/*  */}
+        <a href="">
+          <div className="crypto__container">
+            <div className="left__crypto-container">
+              <div>
+                <img
+                  src={CryptoIcon4}
+                  alt=""
+                  width={48}
+                  className="bg-white rounded-full"
+                />
+              </div>
+              <div>
+                <p>
+                  0.00 ETH <br />
+                  <span>USD 0.00</span>
+                </p>
+              </div>
             </div>
-            <MdOutlineArrowForwardIos className="crypto__assets-icon" />
+            <div className="right__crypto-container">
+              <div className="">
+                <MdArrowDropUp />
+                <span>+0%</span>
+              </div>
+              <MdOutlineArrowForwardIos className="crypto__assets-icon" />
+            </div>
           </div>
-        </div>
-        <div className="crypto__container">
-          <div className="left__crypto-container">
-            <div>
-              <img src={CryptoIcon7} alt="" width={48} />
+        </a>
+        {/*  */}
+
+        {/*  */}
+        <a href="">
+          <div className="crypto__container">
+            <div className="left__crypto-container">
+              <div>
+                <img
+                  src={CryptoIcon5}
+                  alt=""
+                  width={48}
+                  className="bg-white rounded-full"
+                />
+              </div>
+              <div>
+                <p>
+                  0.00 SOL <br />
+                  <span>USD 0.00</span>
+                </p>
+              </div>
             </div>
-            <div>
-              <p>
-                0.00 BCH <br />
-                <span>USD 0.00</span>
-              </p>
+            <div className="right__crypto-container">
+              <div className="">
+                <MdArrowDropUp />
+                <span>+0%</span>
+              </div>
+              <MdOutlineArrowForwardIos className="crypto__assets-icon" />
             </div>
           </div>
-          <div className="right__crypto-container">
-            <div className="">
-              <MdArrowDropUp />
-              <span>+0%</span>
+        </a>
+        {/*  */}
+
+        {/*  */}
+        <a href="">
+          <div className="crypto__container">
+            <div className="left__crypto-container">
+              <div>
+                <img
+                  src={CryptoIcon6}
+                  alt=""
+                  width={48}
+                  className="bg-white rounded-full"
+                />
+              </div>
+              <div>
+                <p>
+                  0.00 TRX <br />
+                  <span>USD 0.00</span>
+                </p>
+              </div>
             </div>
-            <MdOutlineArrowForwardIos className="crypto__assets-icon" />
+            <div className="right__crypto-container">
+              <div className="">
+                <MdArrowDropUp />
+                <span>+0%</span>
+              </div>
+              <MdOutlineArrowForwardIos className="crypto__assets-icon" />
+            </div>
           </div>
-        </div>
+        </a>
+        {/*  */}
+
+        {/*  */}
+        <a href="">
+          <div className="crypto__container">
+            <div className="left__crypto-container">
+              <div>
+                <img
+                  src={CryptoIcon7}
+                  alt=""
+                  width={48}
+                  className="bg-white rounded-full"
+                />
+              </div>
+              <div>
+                <p>
+                  0.00 USDT <br />
+                  <span>USD 0.00</span>
+                </p>
+              </div>
+            </div>
+            <div className="right__crypto-container">
+              <div className="">
+                <MdArrowDropUp />
+                <span>+0%</span>
+              </div>
+              <MdOutlineArrowForwardIos className="crypto__assets-icon" />
+            </div>
+          </div>
+        </a>
+        {/*  */}
       </section>
     </>
   );
