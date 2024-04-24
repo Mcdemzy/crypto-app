@@ -12,6 +12,12 @@ import { MdArrowDropUp } from "react-icons/md";
 import { MdOutlineArrowForwardIos } from "react-icons/md";
 
 import CryptoIcon1 from "../../assets/crypto1.png";
+import CryptoIcon2 from "../../assets/crypto2.png";
+import CryptoIcon3 from "../../assets/crypto3.png";
+import CryptoIcon4 from "../../assets/crypto4.png";
+import CryptoIcon5 from "../../assets/crypto5.png";
+import CryptoIcon6 from "../../assets/crypto6.png";
+import CryptoIcon7 from "../../assets/crypto7.png";
 
 import Cup from "../../assets/cup.png";
 
@@ -152,7 +158,7 @@ const Dashboard = () => {
         <div className="crypto__container">
           <div className="left__crypto-container">
             <div>
-              <img src={CryptoIcon1} alt="" width={48} />
+              <img src={CryptoIcon2} alt="" width={48} />
             </div>
             <div>
               <p>
@@ -172,7 +178,7 @@ const Dashboard = () => {
         <div className="crypto__container">
           <div className="left__crypto-container">
             <div>
-              <img src={CryptoIcon1} alt="" width={48} />
+              <img src={CryptoIcon3} alt="" width={48} />
             </div>
             <div>
               <p>
@@ -192,7 +198,12 @@ const Dashboard = () => {
         <div className="crypto__container">
           <div className="left__crypto-container">
             <div>
-              <img src={CryptoIcon1} alt="" width={48} />
+              <img
+                src={CryptoIcon4}
+                alt=""
+                width={48}
+                className="bg-white rounded-full"
+              />
             </div>
             <div>
               <p>
@@ -212,7 +223,7 @@ const Dashboard = () => {
         <div className="crypto__container">
           <div className="left__crypto-container">
             <div>
-              <img src={CryptoIcon1} alt="" width={48} />
+              <img src={CryptoIcon5} alt="" width={48} />
             </div>
             <div>
               <p>
@@ -232,7 +243,7 @@ const Dashboard = () => {
         <div className="crypto__container">
           <div className="left__crypto-container">
             <div>
-              <img src={CryptoIcon1} alt="" width={48} />
+              <img src={CryptoIcon6} alt="" width={48} />
             </div>
             <div>
               <p>
@@ -252,7 +263,7 @@ const Dashboard = () => {
         <div className="crypto__container">
           <div className="left__crypto-container">
             <div>
-              <img src={CryptoIcon1} alt="" width={48} />
+              <img src={CryptoIcon7} alt="" width={48} />
             </div>
             <div>
               <p>
