@@ -378,9 +378,35 @@ body {
     justify-content: space-between;
   }
 
-  .crypto__assets {
+  .crypto__assets-container {
     width: 90vw;
     margin: auto;
-    padding: 12px;
+    padding-top: 12px;
+  }
+
+  .crypto__assets {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .crypto__assets h3 {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: var(--text-primary);
+  }
+
+  .crypto__assets span {
+    /* color: var(--text-white); */
+  }
+
+  .crypto__assets-icon {
+    font-size: 1.5rem;
+  }
+
+  .crypto__container {
+    background: #000;
+    height: 10vh;
+    border-radius: 6px;
   }
 }

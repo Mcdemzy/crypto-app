@@ -115,16 +115,22 @@ const Dashboard = () => {
         </div>
       </Swiper>
 
-      <section className="crypto__assets">
-        <div>
+      <section className="crypto__assets-container h-[100vh]">
+        <div className="crypto__assets">
           <h3>All Crypto Assets</h3>
-          <div>
+          <div className="flex justify-center items-center gap-2">
             <span>Show</span>
-            <BiShow />
+            <BiShow className="crypto__assets-icon" />
           </div>
         </div>
 
-        <div></div>
+        <div className="crypto__container">
+          <div className="left__crypto-container">
+            <div></div>
+            <div></div>
+          </div>
+          <div className="right__crypto-container"></div>
+        </div>
       </section>
     </>
   );
