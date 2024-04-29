@@ -472,7 +472,6 @@ body {
     font-size: 1.5rem;
   }
   .rocket__container img {
-    min-width: 300px;
     padding: 10px;
   }
 }

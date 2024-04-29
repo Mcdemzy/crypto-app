@@ -6,7 +6,7 @@ const Coming = () => {
     <>
       <section>
         <div className="rocket__container">
-          <img src={Rocket} alt="" />
+          <img src={Rocket} alt="" width={300} />
           <p>Coming Soon</p>
         </div>
         {/* <div>
