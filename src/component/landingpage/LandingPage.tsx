@@ -1,6 +1,6 @@
 // import React from "react";
-import { FaArrowRightLong } from "react-icons/fa6";
-import Giftcard from "../../assets/giftcards.png";
+// import { FaArrowRightLong } from "react-icons/fa6";
+// import Giftcard from "../../assets/giftcards.png";
 import Shield from "../../assets/security.png";
 import Bitcoin from "../../assets/bitcoin.png";
 
