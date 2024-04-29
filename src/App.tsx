@@ -1,13 +1,9 @@
-import Coming from "./component/coming/Coming";
-// import Dashboard from "./component/dashboard/Dashboard";
-// import Navbar from "./component/navbar/Navbar";
+import LandingPage from "./component/landingpage/LandingPage";
 
 function App() {
   return (
     <>
-      {/* <Dashboard /> */}
-      {/* <Navbar /> */}
-      <Coming />
+      <LandingPage />
     </>
   );
 }

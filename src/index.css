@@ -35,78 +35,37 @@ body {
 @media screen and (max-width: 600px) {
   /* ================== Landing Page ==================  */
 
-  .landingpage__container {
-  }
-
   .landingpage__slide-one {
     min-height: 100vh;
-    /* background: var(--color-bg);
-     */
     background-image: url(./assets/12893174_5072609.jpg);
     color: var(--text-white);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding-top: 300px;
+    padding-top: 400px;
   }
 
   .landingpage__slide-one h1 {
-    font-size: 2.2rem;
-    color: var(--text-primary);
+    font-size: 3rem;
     text-align: center;
     font-weight: 800;
     line-height: 40px;
+    margin-bottom: 10px;
   }
 
   .landingpage__slide-one h2 {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     text-align: center;
     font-weight: 500;
   }
 
   .landingpage__slide-one p {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     font-weight: 400;
     text-align: center;
-    color: var(--text-gray);
   }
 
   .landingpage__slide-one a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: var(--text-primary);
-    float: right;
-    color: var(--text-black);
-    padding: 16px;
-    width: 70px;
-    font-size: 2rem;
-    border-radius: 40%;
-    margin-top: 70px;
-    margin-right: 50px;
-  }
-
-  .landingpage__slide-two {
-    height: 100vh;
-    padding-top: 100px;
-  }
-
-  .landingpage__slide-two h1 {
-    font-size: 2rem;
-    font-weight: 800;
-    text-align: center;
-    margin-top: 10px;
-    line-height: 40px;
-  }
-
-  .landingpage__slide-two p {
-    font-size: 1.2rem;
-    text-align: center;
-    margin-top: 20px;
-    color: var(--text-gray);
-  }
-
-  .landingpage__slide-two a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -132,22 +91,24 @@ body {
   }
 
   .landingpage__slide-three h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 800;
     text-align: center;
     margin-top: 100px;
-    line-height: 40px;
+    margin-bottom: 30px;
+    line-height: 50px;
   }
 
   .landingpage__slide-three p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
     color: var(--text-primary-variant);
   }
 
   .landingpage__slide-four img {
     margin: auto;
+    margin-top: 50px;
   }
 
   .landingpage__slide-four h1 {
@@ -156,6 +117,7 @@ body {
     text-align: center;
     margin-top: 10px;
     line-height: 40px;
+    margin-top: 50px;
   }
 
   .landingpage__slide-four p {
@@ -163,7 +125,7 @@ body {
     text-align: center;
     margin-top: 20px;
     color: var(--text-gray-variant);
-    margin-bottom: 20px;
+    margin-bottom: 80px;
   }
 
   .landingpage__slide-four button {

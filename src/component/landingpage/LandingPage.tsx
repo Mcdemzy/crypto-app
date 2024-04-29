@@ -33,27 +33,10 @@ const LandingPage = () => {
               cryptocurrencies to buy, sell, and swap
             </p>
 
-            <a href="">
+            {/* <a href="">
               <FaArrowRightLong />
-            </a>
+            </a> */}
           </div>
-        </SwiperSlide>
-
-        {/* Slide 2 */}
-
-        <SwiperSlide className="landingpage__slide-two">
-          <img src={Giftcard} alt="" />
-          <h1>
-            Buy and Sell <br /> 120+ Giftcards
-          </h1>
-
-          <p>
-            Unlock the value of 120+ gift cards with <br />
-            ease - buy or sell them hassle free.
-          </p>
-          <a href="">
-            <FaArrowRightLong />
-          </a>
         </SwiperSlide>
 
         {/* Slide 3 */}
@@ -71,7 +54,7 @@ const LandingPage = () => {
 
         {/* Slide 4 */}
         <SwiperSlide className="landingpage__slide-four">
-          <img src={Bitcoin} alt="" width={250} height={250} />
+          <img src={Bitcoin} alt="" width={300} height={300} />
           <h1>
             Do More With <br />
             Crypto
