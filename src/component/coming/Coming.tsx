@@ -5,13 +5,13 @@ const Coming = () => {
   return (
     <>
       <section>
-        <div className="rocket__container">
+        <div className="coming-soon">
           <img src={Rocket} alt="" width={300} />
           <p>Coming Soon</p>
         </div>
-        {/* <div>
+        <div className="coming-home">
           <a href="">Back Home</a>
-        </div> */}
+        </div>
       </section>
     </>
   );
