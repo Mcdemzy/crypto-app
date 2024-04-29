@@ -6,9 +6,12 @@ const Coming = () => {
     <>
       <section>
         <div className="rocket__container">
-          <img src={Rocket} alt="" width={200} />
+          <img src={Rocket} alt="" />
           <p>Coming Soon</p>
         </div>
+        {/* <div>
+          <a href="">Back Home</a>
+        </div> */}
       </section>
     </>
   );

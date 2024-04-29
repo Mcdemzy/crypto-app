@@ -466,11 +466,13 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
     color: #788895;
-
-    margin-top: 120px;
-
-    font-size: 1.4rem;
+    margin-top: 60px;
+    font-size: 1.5rem;
+  }
+  .rocket__container img {
+    min-width: 300px;
+    padding: 10px;
   }
 }
