@@ -447,4 +447,30 @@ body {
     font-size: 1.2rem;
     color: var(--text-gray);
   }
+
+  /* ================== Coming Soon Page ==================  */
+
+  /* .coming__soon {
+    background-image: linear-gradient(to bottom, #ffcc00, #ffffff);
+    padding: 40px;
+    border-radius: 50%;
+  }
+
+  .coming__soon img {
+    background: var(--color-bg-white);
+    border-radius: 50%;
+  } */
+
+  .rocket__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #788895;
+
+    margin-top: 120px;
+
+    font-size: 1.4rem;
+  }
 }
