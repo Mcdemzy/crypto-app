@@ -305,6 +305,10 @@ body {
     padding: 5px;
   }
 
+  .create__container button {
+    margin-top: 50px;
+  }
+
   .navbar__container {
     position: fixed;
     background: var(--nav-bg);

@@ -3,13 +3,14 @@
 const Signin = () => {
   return (
     <>
-      <section className="signin__container create__container">
+      <section className="signin__container signup__container create__container">
         <h1>Create Account</h1>
         <p>
           You can get creative with your username.
           <br />
           Provide a password that is hard for anyone to guess.
         </p>
+
         {/* Form */}
         <form action="">
           <div>
