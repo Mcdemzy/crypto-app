@@ -4,8 +4,10 @@ const Signin = () => {
   return (
     <>
       <section className="signin__container">
-        {/* Add the hello message */}
-        <h2>Sign into your account</h2>
+        <div className="signin__welcome">
+          <h1>Hello!</h1>
+          <p>Welcome back</p>
+        </div>
 
         {/* Form */}
         <form action="">

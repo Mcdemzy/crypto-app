@@ -1,10 +1,11 @@
 // import LandingPage from "./component/landingpage/LandingPage";
-import Signup from "./component/signup/Signup";
+import Signin from "./component/signin/Signin";
+// import Signup from "./component/signup/Signup";
 
 function App() {
   return (
     <>
-      <Signup />
+      <Signin />
     </>
   );
 }

@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Sevillana&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -203,13 +205,28 @@ body {
     padding-top: 100px;
   }
 
-  .signin__container h2 {
+  .signin__welcome h1 {
+    font-family: "Sevillana", cursive;
+    font-size: 5rem;
+    font-style: italic;
+    font-weight: 400;
+    color: var(--text-primary);
     text-align: center;
-    font-size: 1.6rem;
-    margin-bottom: 100px;
+    line-height: 40px;
+    margin-top: 100px;
+    margin-bottom: 10px;
   }
+
+  .signin__welcome p {
+    margin-bottom: 80px;
+    font-size: 1.8rem;
+    color: var(--text-gray);
+  }
+
   .signin__container label {
     display: block;
+    margin-bottom: 10px;
+    padding: 5px;
   }
 
   .signin__container input {
