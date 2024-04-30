@@ -24,10 +24,7 @@ const Signup = () => {
             <label htmlFor="">Last Name</label>
             <input type="text" placeholder="Doe" required />
           </div>
-          <div>
-            <label htmlFor="">Password</label>
-            <input type="password" placeholder="..........." required />
-          </div>
+
           <div>
             <label htmlFor="">Phone Number</label>
             <input type="number" placeholder="Your mobile number" required />
@@ -35,8 +32,7 @@ const Signup = () => {
           <a href="" className="signin__container-forgot">
             Forgot Password?
           </a>
-
-          <button>Sign Up</button>
+          <button>Next</button>
           <p>
             Not a member yet? <a href="">Sign up</a>
           </p>

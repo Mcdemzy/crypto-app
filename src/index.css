@@ -282,6 +282,12 @@ body {
     line-height: 22px;
   }
 
+  .signup__container label {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+
   .navbar__container {
     position: fixed;
     background: var(--nav-bg);
