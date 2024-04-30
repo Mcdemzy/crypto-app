@@ -36,13 +36,16 @@ body {
   /* ================== Landing Page ==================  */
 
   .landingpage__slide-one {
-    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     background-image: url(./assets/12893174_5072609.jpg);
     color: var(--text-white);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding-top: 400px;
   }
 
   .landingpage__slide-one h1 {
@@ -81,33 +84,38 @@ body {
   }
 
   .landingpage__slide-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: var(--text-primary);
     height: 100vh;
-    padding-top: 100px;
-  }
-
-  .landingpage__slide-three img {
-    margin: auto;
   }
 
   .landingpage__slide-three h1 {
+    margin-top: 150px;
+    margin-bottom: 20px;
     font-size: 2.5rem;
     font-weight: 800;
     text-align: center;
-    margin-top: 100px;
-    margin-bottom: 30px;
     line-height: 50px;
   }
 
   .landingpage__slide-three p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     text-align: center;
     margin-top: 10px;
     color: var(--text-primary-variant);
   }
 
+  .landingpage__slide-four {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .landingpage__slide-four img {
-    margin: auto;
     margin-top: 50px;
   }
 
@@ -115,7 +123,6 @@ body {
     font-size: 2.5rem;
     font-weight: 800;
     text-align: center;
-    margin-top: 10px;
     line-height: 40px;
     margin-top: 50px;
   }
@@ -126,6 +133,7 @@ body {
     margin-top: 20px;
     color: var(--text-gray-variant);
     margin-bottom: 80px;
+    line-height: 24px;
   }
 
   .landingpage__slide-four button {
