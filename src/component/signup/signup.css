@@ -4,7 +4,7 @@
     color: var(--color-bg-white);
     min-height: 100vh;
     padding: 20px;
-    padding-top: 100px;
+    /* padding-top: 100px; */
   }
 
   .signin__welcome h1 {
@@ -63,11 +63,6 @@
     margin: auto;
     font-size: 1.2rem;
     font-weight: 500;
-  }
-
-  .signin__container p {
-    text-align: center;
-    margin-top: 20px;
   }
 
   .signin__container p a {

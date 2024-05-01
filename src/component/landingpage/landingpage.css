@@ -100,7 +100,7 @@
     line-height: 24px;
   }
 
-  .landingpage__slide-four button {
+  .landingpage__slide-four a {
     width: 90vw;
     background: var(--text-primary);
     display: flex;

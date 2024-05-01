@@ -1,5 +1,6 @@
 // import React from 'react'
 import "./banner.css";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -15,12 +16,12 @@ const Banner = () => {
         </p>
 
         <div className="flex flex-col gap-4 mt-10 mb-10">
-          <a href="" className="balance__signin">
+          <Link to="/signin" className="balance__signin">
             Sign in
-          </a>
-          <a href="" className="balance__signup">
+          </Link>
+          <Link to="/signup" className="balance__signup">
             Sign up
-          </a>
+          </Link>
         </div>
         <p className="text-center">
           By continuing, you are agreeing to our{" "}

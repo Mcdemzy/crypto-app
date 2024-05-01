@@ -8,6 +8,8 @@ import "swiper/css/pagination";
 
 import "./landingpage.css";
 
+import { Link } from "react-router-dom";
+
 const LandingPage = () => {
   return (
     <>
@@ -57,7 +59,7 @@ const LandingPage = () => {
             possibilities with crypto.
           </p>
           {/* Add pagination dots */}
-          <button>Get Started</button>
+          <Link to="/banner">Get Started</Link>
         </SwiperSlide>
       </Swiper>
     </>
