@@ -32,6 +32,7 @@ const Signup = () => {
           <a href="" className="signin__container-forgot">
             Forgot Password?
           </a>
+
           <button>Next</button>
           <p>
             Not a member yet? <a href="">Sign up</a>

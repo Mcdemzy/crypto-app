@@ -1,4 +1,5 @@
-// import React from "react";
+import "./dashboard.css";
+
 import { BiBell } from "react-icons/bi";
 import { BsThreeDotsVertical } from "react-icons/bs";
 import { AiOutlineSwap } from "react-icons/ai";
@@ -18,17 +19,14 @@ import CryptoIcon4 from "../../assets/crypto4.png";
 import CryptoIcon5 from "../../assets/crypto5.png";
 import CryptoIcon6 from "../../assets/crypto6.png";
 import CryptoIcon7 from "../../assets/crypto7.png";
-
 import Cup from "../../assets/cup.png";
 
-// import Swiper core and required modules
 import { Pagination } from "swiper/modules";
-
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
+
+import { Link } from "react-router-dom";
 
 const Dashboard = () => {
   return (
@@ -136,7 +134,7 @@ const Dashboard = () => {
         </div>
 
         {/*  */}
-        <a href="">
+        <Link to="/wallet">
           <div className="crypto__container">
             <div className="left__crypto-container">
               <div>
@@ -157,7 +155,7 @@ const Dashboard = () => {
               <MdOutlineArrowForwardIos className="crypto__assets-icon" />
             </div>
           </div>
-        </a>
+        </Link>
         {/*  */}
 
         {/*  */}
@@ -302,7 +300,7 @@ const Dashboard = () => {
 
         {/*  */}
         <a href="">
-          <div className="crypto__container">
+          <div className="crypto__container mb-[100px]">
             <div className="left__crypto-container">
               <div>
                 <img

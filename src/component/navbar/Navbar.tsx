@@ -6,6 +6,8 @@ import { FaRegChartBar } from "react-icons/fa";
 import { PiNewspaperClippingThin } from "react-icons/pi";
 import { PiPaperPlaneTilt } from "react-icons/pi";
 
+import "./navbar.css";
+
 const Navbar = () => {
   return (
     <>

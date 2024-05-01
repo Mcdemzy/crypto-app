@@ -1,18 +1,14 @@
-// import React from "react";
-// import { FaArrowRightLong } from "react-icons/fa6";
-// import Giftcard from "../../assets/giftcards.png";
 import Shield from "../../assets/security.png";
 import Bitcoin from "../../assets/bitcoin.png";
 
 import { Pagination } from "swiper/modules";
-
 import { Swiper, SwiperSlide } from "swiper/react";
-
-import { Link } from "react-router-dom";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
+
+import "./landingpage.css";
+
+import { Link } from "react-router-dom";
 
 const LandingPage = () => {
   return (

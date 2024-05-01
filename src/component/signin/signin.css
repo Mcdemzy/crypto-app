@@ -1,42 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap");
-
-@import url("https://fonts.googleapis.com/css2?family=Sevillana&display=swap");
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --color-bg: #000000;
-  --color-bg-variant: #0d141c;
-  --color-variant: #060d17;
-  --nav-bg: #151f2b;
-  --color-bg-white: #ffffff;
-  --text-primary: #ffcc00;
-  --text-primary-variant: #75580c;
-  --text-white: #ffffff;
-  --text-gray: #a5a5a5;
-  --text-gray-variant: #5b5f62;
-  --text-black: #0d141c;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-::-webkit-scrollbar {
-  display: none;
-}
-
-body {
-  font-family: "Ubuntu", sans-serif;
-  /* color: var(--color-white); */
-  line-height: 1.7;
-}
-
 @media screen and (max-width: 600px) {
-  /* ================== Signin Page ==================  */
-
   .signin__container {
     background: var(--color-bg-variant);
     color: var(--color-bg-white);
@@ -111,43 +73,4 @@ body {
   .signin__container p a {
     color: var(--text-primary);
   }
-
-  .create__container h1 {
-    font-size: 2rem;
-  }
-
-  .create__container p {
-    text-align: left;
-    color: var(--text-gray-variant);
-    font-size: 0.9rem;
-    line-height: 20px;
-    margin-bottom: 40px;
-  }
-
-  .signup__container {
-    padding-top: 16px;
-  }
-
-  .signup__container h1 {
-    font-size: 2.2rem;
-  }
-  .signup__container p {
-    text-align: left;
-    font-size: 1rem;
-    color: var(--text-gray);
-    margin-bottom: 2rem;
-    line-height: 22px;
-  }
-
-  .signup__container label {
-    display: block;
-    margin-bottom: 10px;
-    padding: 5px;
-  }
-
-  .create__container button {
-    margin-top: 50px;
-  }
-
-  /* ================== Coming Soon Page ==================  */
 }

@@ -1,5 +1,6 @@
 // import React from "react";
 import Rocket from "../../assets/rocket.png";
+import "./coming.css";
 
 const Coming = () => {
   return (
