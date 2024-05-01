@@ -73,6 +73,19 @@
   .signin__container p a {
     color: var(--text-primary);
   }
+
+  .create__container h1 {
+    font-size: 2rem;
+  }
+
+  .create__container p {
+    text-align: left;
+    color: var(--text-gray-variant);
+    font-size: 0.9rem;
+    line-height: 20px;
+    margin-bottom: 40px;
+  }
+
   .signup__container {
     padding-top: 16px;
   }
@@ -92,5 +105,9 @@
     display: block;
     margin-bottom: 10px;
     padding: 5px;
+  }
+
+  .create__container button {
+    margin-top: 50px;
   }
 }

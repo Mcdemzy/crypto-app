@@ -8,8 +8,6 @@ import "swiper/css/pagination";
 
 import "./landingpage.css";
 
-import { Link } from "react-router-dom";
-
 const LandingPage = () => {
   return (
     <>

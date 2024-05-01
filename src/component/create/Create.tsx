@@ -1,6 +1,7 @@
 // import React from 'react'
+import "./create.css";
 
-const Signin = () => {
+const Create = () => {
   return (
     <>
       <section className="signin__container signup__container create__container">
@@ -29,4 +30,4 @@ const Signin = () => {
   );
 };
 
-export default Signin;
+export default Create;

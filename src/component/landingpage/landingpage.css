@@ -1,13 +1,11 @@
 @media screen and (max-width: 600px) {
-  /* ================== Landing Page ==================  */
-
   .landingpage__slide-one {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url(./assets/12893174_5072609.jpg);
+    background-image: url(../../assets/12893174_5072609.jpg);
     color: var(--text-white);
     background-size: cover;
     background-position: center;
