@@ -1,67 +1,52 @@
-import Shield from "../../assets/security.png";
-import Bitcoin from "../../assets/bitcoin.png";
-
-import { Pagination } from "swiper/modules";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
-
 import "./landingpage.css";
-
-import { Link } from "react-router-dom";
 
 const LandingPage = () => {
   return (
     <>
-      <Swiper
-        spaceBetween={40}
-        slidesPerView={1}
-        modules={[Pagination]}
-        className="mySwiper"
-      >
-        <SwiperSlide className="landingpage__container">
-          <div className="landingpage__slide-one">
-            <h1>Buy, Sell, Swap</h1>
-            <h2>14+ Crypto</h2>
+      <article className="landing__page">
+        {/* Navbar Section */}
+        <section className="navbar__section">Navbar</section>
+
+        {/* Landing Page Banner */}
+        <section className="banner__section">
+          <h1>
+            The time to{" "}
+            <span>
+              invest in <br /> crypto{" "}
+            </span>
+            is now.
+          </h1>
+          <p>Seize the moment before the giants do</p>
+
+          {/* Timer Div */}
+          <div></div>
+
+          <a href="">Become a Winner</a>
+
+          {/* Video Div */}
+          <div className="video__section"></div>
+
+          {/* Text Div */}
+          <div className="text__section">
             <p>
-              Explore a world of possibilities with 14+ <br />
-              cryptocurrencies to buy, sell, and swap
+              For the first time, we have a consistent flow of capital entering
+              the crypto market. This will culminate in the biggest bull run in
+              history. This is how you get ahead of the institutional curve...
             </p>
 
-            {/* <a href="">
-              <FaArrowRightLong />
-            </a> */}
+            <h3>Seize this rare opportunity</h3>
+            <p>
+              Cryptonary, founded in 2017, is a research and analysis firm
+              designed for retail investors like you. Our members get on-demand
+              access to a team of researchers and analysts who specialise in
+              finding crypto tokens with the highest return possible.
+            </p>
+            <p>Your unfair advantage and 100X opportunities await…</p>
           </div>
-        </SwiperSlide>
-
-        {/* Slide 3 */}
-        <SwiperSlide className="landingpage__slide-three">
-          <img src={Shield} alt="" />
-          <h1>
-            Secure Funds and <br />
-            Instant Payouts
-          </h1>
-          <p>
-            Your funds are safe with us. Enjoy Instant <br />
-            Payouts with top-notch security.
-          </p>
-        </SwiperSlide>
-
-        {/* Slide 4 */}
-        <SwiperSlide className="landingpage__slide-four">
-          <img src={Bitcoin} alt="" width={300} height={300} />
-          <h1>
-            Do More With <br />
-            Crypto
-          </h1>
-          <p>
-            Embark on a journey towards endless <br />
-            possibilities with crypto.
-          </p>
-          {/* Add pagination dots */}
-          <Link to="/banner">Get Started</Link>
-        </SwiperSlide>
-      </Swiper>
+          {/* Features Div */}
+          <div></div>
+        </section>
+      </article>
     </>
   );
 };
