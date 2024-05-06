@@ -1,4 +1,15 @@
 import "./landingpage.css";
+import { MdWorkspacePremium } from "react-icons/md";
+import { PiGraphThin } from "react-icons/pi";
+import { PiBrainBold } from "react-icons/pi";
+import { GiCheckMark } from "react-icons/gi";
+import { GiParachute } from "react-icons/gi";
+import { IoIosPeople } from "react-icons/io";
+import { SiGoogledocs } from "react-icons/si";
+import { BiSolidWallet } from "react-icons/bi";
+import { SiPivotaltracker } from "react-icons/si";
+import { FaPlus } from "react-icons/fa6";
+import { FaMinus } from "react-icons/fa6";
 
 const LandingPage = () => {
   return (
@@ -6,7 +17,6 @@ const LandingPage = () => {
       <article className="landing__page">
         {/* Navbar Section */}
         <section className="navbar__section">Navbar</section>
-
         {/* Landing Page Banner */}
         <section className="banner__section">
           <h1>
@@ -43,8 +53,19 @@ const LandingPage = () => {
             </p>
             <p>Your unfair advantage and 100X opportunities await…</p>
           </div>
-          {/* Features Div */}
-          <div></div>
+        </section>
+
+        {/* Features Section */}
+        <section className="features__section">
+          <div className="features__box">
+            <MdWorkspacePremium className="features__icon" />
+            <h3>Research</h3>
+            {/* <p className=" hidden">
+              Our team of researchers and analysts specialise in finding crypto
+              tokens with the highest return possible.
+            </p> */}
+            <FaPlus className="features__icon" />
+          </div>
         </section>
       </article>
     </>
