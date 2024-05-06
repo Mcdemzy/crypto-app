@@ -7,6 +7,7 @@
 // import Banner from "./component/banner/Banner";
 // import Navbar from "./component/navbar/Navbar";
 // import Coming from "./component/coming/Coming";
+import LandingPage from "./component/landingpage/LandingPage";
 import Wallet from "./wallet/Wallet";
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
     //   {/* Add more routes for other components if needed */}
     // </Routes>
     // <Wallet />
-    <Wallet />
+    <LandingPage />
   );
 }
 
