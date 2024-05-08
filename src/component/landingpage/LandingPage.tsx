@@ -506,6 +506,7 @@ const LandingPage = () => {
           </aside>
         </section>
         {/* Section footer */}
+        <section className="mt-10 w-[90%] border-2 border-primary h-[400px] py-2 m-auto p-2 "></section>
       </article>
     </>
   );
