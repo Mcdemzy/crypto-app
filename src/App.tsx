@@ -8,7 +8,7 @@
 // import Navbar from "./component/navbar/Navbar";
 // import Coming from "./component/coming/Coming";
 import LandingPage from "./component/landingpage/LandingPage";
-import Wallet from "./wallet/Wallet";
+// import Wallet from "./wallet/Wallet";
 
 function App() {
   return (
