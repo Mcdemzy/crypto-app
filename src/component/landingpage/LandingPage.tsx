@@ -67,18 +67,819 @@ const LandingPage = () => {
             </p> */}
           {/* <FaPlus className="features__icon" /> */}
           {/* </div> */}
-          <div className="w-[90%] border-2 h-[400px] m-auto">
-            <h2 className="text-primary text-xl text-center m-uato">
-              Drop down section here
-            </h2>
+          {/* accordian section here  */}
+          <div className="w-[90%] m-auto">
+            {/* Accordian */}
+            <aside>
+              <div className="mx-auto max-w-5xl mt-8 grid grid-cols-2 gap-4">
+                <div className="col-span-1">
+                  <details className="group rounded-md px-3" open>
+                    <summary className="font-semibold flex cursor-pointer list-none items-center justify-between py-4 text-lg text-secondary-900 group-open:text-primary-500">
+                      <div className="flex flex-row justify-start gap-x-3 items-center">
+                        <div className="w-6 h-6 border-2 border-primary"></div>
+                        <p>Premium Research</p>
+                      </div>
+                      <div>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          strokeWidth="1.5"
+                          stroke="currentColor"
+                          className="block h-5 w-5 group-open:hidden"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M12 4.5v15m7.5-7.5h-15"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          strokeWidth="1.5"
+                          stroke="currentColor"
+                          className="hidden h-5 w-5 group-open:block"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M19.5 12h-15"
+                          />
+                        </svg>
+                      </div>
+                    </summary>
+                    <div className="pb-4 text-secondary-500">
+                      <div className="flex flex-col">
+                        Discover our top token picks for 2024. Capitalise on
+                        winning crypto opportunities and optimise your portfolio
+                        the simple way.
+                        <button className="mt-2 bg-yellow-200 hover:bg-primary py-2 rounded-md w-52 text-black">
+                          Learn More
+                        </button>
+                      </div>
+                    </div>
+                  </details>
+                </div>
+                <div className="col-span-1">
+                  <details className="group rounded-md px-3">
+                    <summary className="font-semibold flex cursor-pointer list-none items-center justify-between py-4 text-lg  text-secondary-900 group-open:text-primary-500">
+                      <div className="flex flex-row justify-start gap-x-3 items-center">
+                        <div className="w-6 h-6 border-2 border-primary"></div>
+                        <p>Altcoin opportunities</p>
+                      </div>
+                      <div>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          strokeWidth="1.5"
+                          stroke="currentColor"
+                          className="block h-5 w-5 group-open:hidden"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M12 4.5v15m7.5-7.5h-15"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          strokeWidth="1.5"
+                          stroke="currentColor"
+                          className="hidden h-5 w-5 group-open:block"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M19.5 12h-15"
+                          />
+                        </svg>
+                      </div>
+                    </summary>
+                    <div className="pb-4 text-secondary-500">
+                      <div className="flex flex-col">
+                        Access potential altcoin trading setups, analysis, entry
+                        zones, accumulation levels and risk information.
+                        <button className="mt-2 bg-yellow-200 hover:bg-primary py-2 rounded-md w-52 text-black">
+                          Learn More
+                        </button>
+                      </div>
+                    </div>
+                  </details>
+                </div>
+                <div className="col-span-1">
+                  <details className="group rounded-md px-3">
+                    <summary className="font-semibold flex cursor-pointer list-none items-center justify-between py-4 text-lg  text-secondary-900 group-open:text-primary-500">
+                      <div className="flex flex-row justify-start gap-x-3 items-center">
+                        <div className="w-6 h-6 border-2 border-primary"></div>
+                        <p>Smary Money</p>
+                      </div>
+                      <div>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          strokeWidth="1.5"
+                          stroke="currentColor"
+                          className="block h-5 w-5 group-open:hidden"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M12 4.5v15m7.5-7.5h-15"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          strokeWidth="1.5"
+                          stroke="currentColor"
+                          className="hidden h-5 w-5 group-open:block"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M19.5 12h-15"
+                          />
+                        </svg>
+                      </div>
+                    </summary>
+                    <div className="pb-4 text-secondary-500">
+                      <div className="flex flex-col">
+                        Uncover the secrets of crypto’s most successful
+                        investors. Capitalise on opportunities early.
+                        <button className="mt-2 bg-yellow-200 hover:bg-primary py-2 rounded-md w-52 text-black">
+                          Learn More
+                        </button>
+                      </div>
+                    </div>
+                  </details>
+                </div>
+                <div className="col-span-1">
+                  <details className="group rounded-md px-3">
+                    <summary className="font-semibold flex cursor-pointer list-none items-center justify-between py-4 text-lg  text-secondary-900 group-open:text-primary-500">
+                      <div className="flex flex-row justify-start gap-x-3 items-center">
+                        <div className="w-6 h-6 border-2 border-primary"></div>
+                        <p>Cryptonary's Picks</p>
+                      </div>
+                      <div>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          strokeWidth="1.5"
+                          stroke="currentColor"
+                          className="block h-5 w-5 group-open:hidden"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M12 4.5v15m7.5-7.5h-15"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          strokeWidth="1.5"
+                          stroke="currentColor"
+                          className="hidden h-5 w-5 group-open:block"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M19.5 12h-15"
+                          />
+                        </svg>
+                      </div>
+                    </summary>
+                    <div className="pb-4 text-secondary-500">
+                      <div className="flex flex-col">
+                        Access potential altcoin trading setups, analysis, entry
+                        zones, accumulation levels and risk information.
+                        <button className="mt-2 bg-yellow-200 hover:bg-primary py-2 rounded-md w-52 text-black">
+                          Learn More
+                        </button>
+                      </div>
+                    </div>
+                  </details>
+                </div>{" "}
+                <div className="col-span-1">
+                  <details className="group rounded-md px-3">
+                    <summary className="font-semibold flex cursor-pointer list-none items-center justify-between py-4 text-lg  text-secondary-900 group-open:text-primary-500">
+                      <div className="flex flex-row justify-start gap-x-3 items-center">
+                        <div className="w-6 h-6 border-2 border-primary"></div>
+                        <p>Airdrops Tool</p>
+                      </div>
+                      <div>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          strokeWidth="1.5"
+                          stroke="currentColor"
+                          className="block h-5 w-5 group-open:hidden"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M12 4.5v15m7.5-7.5h-15"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          strokeWidth="1.5"
+                          stroke="currentColor"
+                          className="hidden h-5 w-5 group-open:block"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M19.5 12h-15"
+                          />
+                        </svg>
+                      </div>
+                    </summary>
+                    <div className="pb-4 text-secondary-500">
+                      <div className="flex flex-col">
+                        Access potential altcoin trading setups, analysis, entry
+                        zones, accumulation levels and risk information.
+                        <button className="mt-2 bg-yellow-200 hover:bg-primary py-2 rounded-md w-52 text-black">
+                          Learn More
+                        </button>
+                      </div>
+                    </div>
+                  </details>
+                </div>
+                <div className="col-span-1">
+                  <details className="group rounded-md px-3">
+                    <summary className="font-semibold flex cursor-pointer list-none items-center justify-between py-4 text-lg  text-secondary-900 group-open:text-primary-500">
+                      <div className="flex flex-row justify-start gap-x-3 items-center">
+                        <div className="w-6 h-6 border-2 border-primary"></div>
+                        <p>Community</p>
+                      </div>
+                      <div>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          strokeWidth="1.5"
+                          stroke="currentColor"
+                          className="block h-5 w-5 group-open:hidden"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M12 4.5v15m7.5-7.5h-15"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          strokeWidth="1.5"
+                          stroke="currentColor"
+                          className="hidden h-5 w-5 group-open:block"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M19.5 12h-15"
+                          />
+                        </svg>
+                      </div>
+                    </summary>
+                    <div className="pb-4 text-secondary-500">
+                      <div className="flex flex-col">
+                        Access potential altcoin trading setups, analysis, entry
+                        zones, accumulation levels and risk information.
+                        <button className="mt-2 bg-yellow-200 hover:bg-primary py-2 rounded-md w-52 text-black">
+                          Learn More
+                        </button>
+                      </div>
+                    </div>
+                  </details>
+                </div>{" "}
+                <div className="col-span-1">
+                  <details className="group rounded-md px-3">
+                    <summary className="font-semibold flex cursor-pointer list-none items-center justify-between py-4 text-lg text-secondary-900 group-open:text-primary-500">
+                      <div className="flex flex-row justify-start gap-x-3 items-center">
+                        <div className="w-6 h-6 border-2 border-primary"></div>
+                        <p>Market Updates</p>
+                      </div>
+                      <div>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          strokeWidth="1.5"
+                          stroke="currentColor"
+                          className="block h-5 w-5 group-open:hidden"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M12 4.5v15m7.5-7.5h-15"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          strokeWidth="1.5"
+                          stroke="currentColor"
+                          className="hidden h-5 w-5 group-open:block"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M19.5 12h-15"
+                          />
+                        </svg>
+                      </div>
+                    </summary>
+                    <div className="pb-4 text-secondary-500">
+                      <div className="flex flex-col">
+                        Discover our top token picks for 2024. Capitalise on
+                        winning crypto opportunities and optimise your portfolio
+                        the simple way.
+                        <button className="mt-2 bg-yellow-200 hover:bg-primary py-2 rounded-md w-52 text-black">
+                          Learn More
+                        </button>
+                      </div>
+                    </div>
+                  </details>
+                </div>
+                <div className="col-span-1">
+                  <details className="group rounded-md px-3">
+                    <summary className="font-semibold flex cursor-pointer list-none items-center justify-between py-4 text-lg  text-secondary-900 group-open:text-primary-500">
+                      <div className="flex flex-row justify-start gap-x-3 items-center">
+                        <div className="w-6 h-6 border-2 border-primary"></div>
+                        <p>Portfolie Tracker</p>
+                      </div>
+                      <div>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          strokeWidth="1.5"
+                          stroke="currentColor"
+                          className="block h-5 w-5 group-open:hidden"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M12 4.5v15m7.5-7.5h-15"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          strokeWidth="1.5"
+                          stroke="currentColor"
+                          className="hidden h-5 w-5 group-open:block"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M19.5 12h-15"
+                          />
+                        </svg>
+                      </div>
+                    </summary>
+                    <div className="pb-4 text-secondary-500">
+                      <div className="flex flex-col">
+                        Access potential altcoin trading setups, analysis, entry
+                        zones, accumulation levels and risk information.
+                        <button className="mt-2 bg-yellow-200 hover:bg-primary py-2 rounded-md w-52 text-black">
+                          Learn More
+                        </button>
+                      </div>
+                    </div>
+                  </details>
+                </div>{" "}
+                <div className="col-span-1">
+                  <details className="group rounded-md px-3">
+                    <summary className="font-semibold flex cursor-pointer list-none items-center justify-between py-4 text-lg text-secondary-900 group-open:text-primary-500">
+                      <div className="flex flex-row justify-start gap-x-3 items-center">
+                        <div className="w-6 h-6 border-2 border-primary"></div>
+                        <p>Market Direction</p>
+                      </div>
+                      <div>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          strokeWidth="1.5"
+                          stroke="currentColor"
+                          className="block h-5 w-5 group-open:hidden"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M12 4.5v15m7.5-7.5h-15"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          strokeWidth="1.5"
+                          stroke="currentColor"
+                          className="hidden h-5 w-5 group-open:block"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M19.5 12h-15"
+                          />
+                        </svg>
+                      </div>
+                    </summary>
+                    <div className="pb-4 text-secondary-500">
+                      <div className="flex flex-col">
+                        Discover our top token picks for 2024. Capitalise on
+                        winning crypto opportunities and optimise your portfolio
+                        the simple way.
+                        <button className="mt-2 bg-yellow-200 hover:bg-primary py-2 rounded-md w-52 text-black">
+                          Learn More
+                        </button>
+                      </div>
+                    </div>
+                  </details>
+                </div>
+                <div className="col-span-1">
+                  <details className="group rounded-md px-3">
+                    <summary className="font-semibold flex cursor-pointer list-none items-center justify-between py-4 text-lg  text-secondary-900 group-open:text-primary-500">
+                      <div className="flex flex-row justify-start gap-x-3 items-center">
+                        <div className="w-6 h-6 border-2 border-primary"></div>
+                        <p>Altcoin opportunities</p>
+                      </div>
+                      <div>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          strokeWidth="1.5"
+                          stroke="currentColor"
+                          className="block h-5 w-5 group-open:hidden"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M12 4.5v15m7.5-7.5h-15"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          strokeWidth="1.5"
+                          stroke="currentColor"
+                          className="hidden h-5 w-5 group-open:block"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M19.5 12h-15"
+                          />
+                        </svg>
+                      </div>
+                    </summary>
+                    <div className="pb-4 text-secondary-500">
+                      <div className="flex flex-col">
+                        Access potential altcoin trading setups, analysis, entry
+                        zones, accumulation levels and risk information.
+                        <button className="mt-2 bg-yellow-200 hover:bg-primary py-2 rounded-md w-52 text-black">
+                          Learn More
+                        </button>
+                      </div>
+                    </div>
+                  </details>
+                </div>{" "}
+                <div className="col-span-1">
+                  <details className="group rounded-md px-3">
+                    <summary className="font-semibold flex cursor-pointer list-none items-center justify-between py-4 text-lg text-secondary-900 group-open:text-primary-500">
+                      <div className="flex flex-row justify-start gap-x-3 items-center">
+                        <div className="w-6 h-6 border-2 border-primary"></div>
+                        <p>Premium Research</p>
+                      </div>
+                      <div>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          strokeWidth="1.5"
+                          stroke="currentColor"
+                          className="block h-5 w-5 group-open:hidden"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M12 4.5v15m7.5-7.5h-15"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          strokeWidth="1.5"
+                          stroke="currentColor"
+                          className="hidden h-5 w-5 group-open:block"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M19.5 12h-15"
+                          />
+                        </svg>
+                      </div>
+                    </summary>
+                    <div className="pb-4 text-secondary-500">
+                      <div className="flex flex-col">
+                        Discover our top token picks for 2024. Capitalise on
+                        winning crypto opportunities and optimise your portfolio
+                        the simple way.
+                        <button className="mt-2 bg-yellow-200 hover:bg-primary py-2 rounded-md w-52 text-black">
+                          Learn More
+                        </button>
+                      </div>
+                    </div>
+                  </details>
+                </div>
+                <div className="col-span-1">
+                  <details className="group rounded-md px-3">
+                    <summary className="font-semibold flex cursor-pointer list-none items-center justify-between py-4 text-lg  text-secondary-900 group-open:text-primary-500">
+                      <div className="flex flex-row justify-start gap-x-3 items-center">
+                        <div className="w-6 h-6 border-2 border-primary"></div>
+                        <p>ETF Tracker</p>
+                      </div>
+                      <div>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          strokeWidth="1.5"
+                          stroke="currentColor"
+                          className="block h-5 w-5 group-open:hidden"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M12 4.5v15m7.5-7.5h-15"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          strokeWidth="1.5"
+                          stroke="currentColor"
+                          className="hidden h-5 w-5 group-open:block"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M19.5 12h-15"
+                          />
+                        </svg>
+                      </div>
+                    </summary>
+                    <div className="pb-4 text-secondary-500">
+                      <div className="flex flex-col">
+                        Access potential altcoin trading setups, analysis, entry
+                        zones, accumulation levels and risk information.
+                        <button className="mt-2 bg-yellow-200 hover:bg-primary py-2 rounded-md w-52 text-black">
+                          Learn More
+                        </button>
+                      </div>
+                    </div>
+                  </details>
+                </div>{" "}
+              </div>
+            </aside>
           </div>
         </section>
         {/* Ride the crypto wave section */}
-        <section className="mt-10 w-[90%] h-[600px] border-2 m-auto p-2">
+        <section className="mt-10 w-[90%] border-2 m-auto p-2">
           <h1 className=" m-auto mt-10 text-black font-bold text-4xl text-center">
             Ride the crypto wave to a <br />
             multi-million dollar portfolio
           </h1>
+          <div className="mt-10 w-full flex flex-row">
+            <div className="w-[50%]  space-y-4 p-6">
+              <div className="h-[200px] border-2 border-primary"></div>
+              <div className="h-[200px] border-2 border-primary"></div>
+              <div className="h-[200px] border-2 border-primary"></div>
+              <div className="h-[200px] border-2 border-primary"></div>
+            </div>
+            <div className="w-[50%] space-y-4 p-6">
+              <div className="h-[200px]">
+                <details className="group rounded-md px-3">
+                  <summary className="font-semibold flex cursor-pointer list-none items-center justify-between py-4 text-lg  text-secondary-900 group-open:text-primary-500">
+                    <div className="flex flex-row justify-start gap-x-3 items-center">
+                      <div className="w-6 h-6 border-2 border-primary"></div>
+                      <p>Altcoin opportunities</p>
+                    </div>
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth="1.5"
+                        stroke="currentColor"
+                        className="block h-5 w-5 group-open:hidden"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M12 4.5v15m7.5-7.5h-15"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth="1.5"
+                        stroke="currentColor"
+                        className="hidden h-5 w-5 group-open:block"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M19.5 12h-15"
+                        />
+                      </svg>
+                    </div>
+                  </summary>
+                  <div className="pb-4 text-secondary-500">
+                    <div className="flex flex-col">
+                      Access potential altcoin trading setups, analysis, entry
+                      zones, accumulation levels and risk information.
+                      <button className="mt-2 bg-yellow-200 hover:bg-primary py-2 rounded-md w-52 text-black">
+                        Learn More
+                      </button>
+                    </div>
+                  </div>
+                </details>
+              </div>
+              <div className="h-[200px]">
+                <details className="group rounded-md px-3">
+                  <summary className="font-semibold flex cursor-pointer list-none items-center justify-between py-4 text-lg  text-secondary-900 group-open:text-primary-500">
+                    <div className="flex flex-row justify-start gap-x-3 items-center">
+                      <div className="w-6 h-6 border-2 border-primary"></div>
+                      <p>Altcoin opportunities</p>
+                    </div>
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth="1.5"
+                        stroke="currentColor"
+                        className="block h-5 w-5 group-open:hidden"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M12 4.5v15m7.5-7.5h-15"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth="1.5"
+                        stroke="currentColor"
+                        className="hidden h-5 w-5 group-open:block"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M19.5 12h-15"
+                        />
+                      </svg>
+                    </div>
+                  </summary>
+                  <div className="pb-4 text-secondary-500">
+                    <div className="flex flex-col">
+                      Access potential altcoin trading setups, analysis, entry
+                      zones, accumulation levels and risk information.
+                      <button className="mt-2 bg-yellow-200 hover:bg-primary py-2 rounded-md w-52 text-black">
+                        Learn More
+                      </button>
+                    </div>
+                  </div>
+                </details>
+              </div>
+              <div className="h-[200px]">
+                <details className="group rounded-md px-3">
+                  <summary className="font-semibold flex cursor-pointer list-none items-center justify-between py-4 text-lg  text-secondary-900 group-open:text-primary-500">
+                    <div className="flex flex-row justify-start gap-x-3 items-center">
+                      <div className="w-6 h-6 border-2 border-primary"></div>
+                      <p>Altcoin opportunities</p>
+                    </div>
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth="1.5"
+                        stroke="currentColor"
+                        className="block h-5 w-5 group-open:hidden"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M12 4.5v15m7.5-7.5h-15"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth="1.5"
+                        stroke="currentColor"
+                        className="hidden h-5 w-5 group-open:block"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M19.5 12h-15"
+                        />
+                      </svg>
+                    </div>
+                  </summary>
+                  <div className="pb-4 text-secondary-500">
+                    <div className="flex flex-col">
+                      Access potential altcoin trading setups, analysis, entry
+                      zones, accumulation levels and risk information.
+                      <button className="mt-2 bg-yellow-200 hover:bg-primary py-2 rounded-md w-52 text-black">
+                        Learn More
+                      </button>
+                    </div>
+                  </div>
+                </details>
+              </div>
+              <div className="h-[200px]">
+                <details className="group rounded-md px-3">
+                  <summary className="font-semibold flex cursor-pointer list-none items-center justify-between py-4 text-lg  text-secondary-900 group-open:text-primary-500">
+                    <div className="flex flex-row justify-start gap-x-3 items-center">
+                      <div className="w-6 h-6 border-2 border-primary"></div>
+                      <p>Altcoin opportunities</p>
+                    </div>
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth="1.5"
+                        stroke="currentColor"
+                        className="block h-5 w-5 group-open:hidden"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M12 4.5v15m7.5-7.5h-15"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth="1.5"
+                        stroke="currentColor"
+                        className="hidden h-5 w-5 group-open:block"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M19.5 12h-15"
+                        />
+                      </svg>
+                    </div>
+                  </summary>
+                  <div className="pb-4 text-secondary-500">
+                    <div className="flex flex-col">
+                      Access potential altcoin trading setups, analysis, entry
+                      zones, accumulation levels and risk information.
+                      <button className="mt-2 bg-yellow-200 hover:bg-primary py-2 rounded-md w-52 text-black">
+                        Learn More
+                      </button>
+                    </div>
+                  </div>
+                </details>
+              </div>
+            </div>
+          </div>
         </section>
         {/* Ride the crypto wave section */}
         <section className="mt-10 w-[90%] h-[650px] py-2 border-2 m-auto p-2 video__section">
