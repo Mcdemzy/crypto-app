@@ -18,6 +18,7 @@
     background: #151f2b8d;
     margin: auto;
     margin-top: 40px;
+    padding-top: 16px;
     border-radius: 10px;
   }
   .main__chart-container img {
@@ -59,6 +60,6 @@
   .main__chart-display {
     width: 100%;
     min-height: 45vh;
-    background: black;
+    /* background: black; */
   }
 }

@@ -2,13 +2,14 @@
 // import Create from "./component/create/Create";
 // import Dashboard from "./component/dashboard/Dashboard";
 // import LandingPage from "./component/landingpage/LandingPage";
-// import Signup from "./component/signup/Signup";
+import Signup from "./component/signup/Signup";
 // import Signin from "./component/signin/Signin";
 // import Banner from "./component/banner/Banner";
 // import Navbar from "./component/navbar/Navbar";
 // import Coming from "./component/coming/Coming";
-import Chart from "./component/chart/Chart";
+import MyChart from "./component/chart/MyChart";
 import Dashboard from "./component/dashboard/Dashboard";
+import Etf from "./component/etf/Etf";
 import LandingPage from "./component/landingpage/LandingPage";
 import Wallet from "./component/wallet/Wallet";
 
@@ -27,8 +28,7 @@ function App() {
     //   {/* Add more routes for other components if needed */}
     // </Routes>
     // <Wallet />
-    <Chart />
-    // <Dashboard/>
+    <Signup />
   );
 }
 
