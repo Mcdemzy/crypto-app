@@ -7,11 +7,13 @@ import Signup from "./component/signup/Signup";
 // import Banner from "./component/banner/Banner";
 // import Navbar from "./component/navbar/Navbar";
 // import Coming from "./component/coming/Coming";
-import MyChart from "./component/chart/MyChart";
+import MyChart from "./component/chart/Chart";
 import Dashboard from "./component/dashboard/Dashboard";
-import Etf from "./component/etf/Etf";
+import EtfFinancials from "./component/etf/EtfFinancials";
 import LandingPage from "./component/landingpage/LandingPage";
 import Wallet from "./component/wallet/Wallet";
+import Modal from "./component/modal/Modal";
+import Chart from "./component/chart/Chart";
 
 function App() {
   return (
@@ -28,7 +30,7 @@ function App() {
     //   {/* Add more routes for other components if needed */}
     // </Routes>
     // <Wallet />
-    <Signup />
+    <Chart />
   );
 }
 
