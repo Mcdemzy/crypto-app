@@ -1,4 +1,3 @@
-import React from "react";
 import "./etf.css";
 import EtfImg1 from "../../assets/etfImg1.png";
 import EtfImg2 from "../../assets/etfImg2.png";

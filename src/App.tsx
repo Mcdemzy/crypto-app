@@ -2,19 +2,20 @@
 // import Create from "./component/create/Create";
 // import Dashboard from "./component/dashboard/Dashboard";
 // import LandingPage from "./component/landingpage/LandingPage";
-import Signup from "./component/signup/Signup";
+// import Signup from "./component/signup/Signup";
 // import Signin from "./component/signin/Signin";
 // import Banner from "./component/banner/Banner";
 // import Navbar from "./component/navbar/Navbar";
 // import Coming from "./component/coming/Coming";
-import MyChart from "./component/chart/TradingViewWidget";
-import Dashboard from "./component/dashboard/Dashboard";
-import EtfFinancials from "./component/etf/EtfFinancials";
-import LandingPage from "./component/landingpage/LandingPage";
-import Wallet from "./component/wallet/Wallet";
-import Modal from "./component/modal/Modal";
-import Chart from "./component/chart/TradingViewWidget";
-import TradingViewWidget from "./component/chart/TradingViewWidget";
+// import MyChart from "./component/chart/TradingViewWidget";
+// import Dashboard from "./component/dashboard/Dashboard";
+// import EtfFinancials from "./component/etf/EtfFinancials";
+// import LandingPage from "./component/landingpage/LandingPage";
+// import Wallet from "./component/wallet/Wallet";
+// import Modal from "./component/modal/Modal";
+// import Chart from "./component/chart/TradingViewWidget";
+// import TradingViewWidget from "./component/chart/TradingViewWidget";
+import Etf from "./component/etf/Etf";
 
 function App() {
   return (
@@ -31,7 +32,7 @@ function App() {
     //   {/* Add more routes for other components if needed */}
     // </Routes>
     // <Wallet />
-    <Chart />
+    <Etf />
   );
 }
 

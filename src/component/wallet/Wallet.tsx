@@ -1,24 +1,24 @@
 import { useState } from "react";
 import { BiBell } from "react-icons/bi";
 
-import {
-  BsBoxArrowInDownLeft,
-  BsBoxArrowUpRight,
-  BsThreeDotsVertical,
-} from "react-icons/bs";
 import Flag from "../../assets/flag.png";
 import "./wallet.css";
 import { IoIosArrowDown } from "react-icons/io";
+import {
+  // BsBoxArrowInDownLeft,
+  BsBoxArrowUpRight,
+  BsThreeDotsVertical,
+} from "react-icons/bs";
 import { BiHide } from "react-icons/bi";
 import { IoMdStopwatch } from "react-icons/io";
 
 import CryptoIcon1 from "../../assets/crypto1.png";
-import CryptoIcon2 from "../../assets/crypto2.png";
-import CryptoIcon3 from "../../assets/crypto3.png";
-import CryptoIcon4 from "../../assets/crypto4.png";
-import CryptoIcon5 from "../../assets/crypto5.png";
-import CryptoIcon6 from "../../assets/crypto6.png";
-import CryptoIcon7 from "../../assets/crypto7.png";
+// import CryptoIcon2 from "../../assets/crypto2.png";
+// import CryptoIcon3 from "../../assets/crypto3.png";
+// import CryptoIcon4 from "../../assets/crypto4.png";
+// import CryptoIcon5 from "../../assets/crypto5.png";
+// import CryptoIcon6 from "../../assets/crypto6.png";
+// import CryptoIcon7 from "../../assets/crypto7.png";
 import { AiOutlineClose } from "react-icons/ai";
 
 const Wallet = () => {
