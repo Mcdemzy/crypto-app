@@ -87,6 +87,12 @@
   margin: 1.875rem auto;
   max-width: 59.375rem;
 }
+@media (max-width: 500px) {
+  .text__section p {
+    font-size: 1rem;
+    margin: 1rem auto;
+  }
+}
 
 .text__section h3 {
   text-align: center;

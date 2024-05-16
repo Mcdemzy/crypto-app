@@ -1,28 +1,16 @@
 // import Navbar from "../navbar/Navbar";
+import { useState } from "react";
 import Navbar from "./components/Navbar";
 import "./landingpage.css";
-// import { MdWorkspacePremium } from "react-icons/md";
-// import { PiGraphThin } from "react-icons/pi";
-// import { PiBrainBold } from "react-icons/pi";
-// import { GiCheckMark } from "react-icons/gi";
-// import { GiParachute } from "react-icons/gi";
-// import { IoIosPeople } from "react-icons/io";
-// import { SiGoogledocs } from "react-icons/si";
-// import { BiSolidWallet } from "react-icons/bi";
-// import { SiPivotaltracker } from "react-icons/si";
-// import { FaPlus } from "react-icons/fa6";
-// import { FaMinus } from "react-icons/fa6";
-// import { Link } from "react-router-dom";
+import Timer from "./components/Timer";
 
 const LandingPage = () => {
+  const [activeTab, setActiveTab] = useState("monthly");
+
   return (
     <>
       <article className="landing__page">
-        {/* Navbar Section */}
-        {/* <section className="navbar__section"> */}
         <Navbar />
-        {/* </section> */}
-        {/* Landing Page Banner */}
         <section className="banner__section">
           <h1>
             The time to{" "}
@@ -32,31 +20,30 @@ const LandingPage = () => {
             is now.
           </h1>
           <p>Seize the moment before the giants do</p>
-
-          {/* Timer Div */}
-          <div></div>
-
+          {/* Timer*/}
+          <Timer />
           <a href="">Become a Winner</a>
 
           {/* Video Div */}
-          <div className="video__section">
-            <iframe
-              className="video__iframe"
-              src="https://www.youtube.com/embed/rYQgy8QDEBI?autoplay=0"
-              frameborder="0"
-              allowfullscreen
-            ></iframe>
+          <div className="w-[95%] border-2 mt-10 m-auto h-[400px] md:h-[700px] flex justify-center items-center rounded-md">
+            <div className="relative w-full h-full flex justify-center items-center rounded-md">
+              <video
+                className=" w-full h-full object-cover object-center m-auto rounded-md"
+                controls
+              >
+                <source src={`/vid1.MP4`} type="video/mp4" />
+              </video>
+            </div>
           </div>
-
           {/* Text Div */}
-          <div className="text__section">
+          <div className="text__section m-auto">
             <p>
               For the first time, we have a consistent flow of capital entering
               the crypto market. This will culminate in the biggest bull run in
               history. This is how you get ahead of the institutional curve...
             </p>
 
-            <h3>Seize this rare opportunity</h3>
+            <h3 className="text-sm">Seize this rare opportunity</h3>
             <p>
               Cryptonary, founded in 2017, is a research and analysis firm
               designed for retail investors like you. Our members get on-demand
@@ -66,20 +53,10 @@ const LandingPage = () => {
             <p>Your unfair advantage and 100X opportunities await…</p>
           </div>
         </section>
-
         {/* Features Section */}
         <section className="features__section">
-          {/* <div className="features__box"> */}
-          {/* <MdWorkspacePremium className="features__icon" /> */}
-          {/* <h3>Research</h3> */}
-          {/* <p className=" hidden">
-              Our team of researchers and analysts specialise in finding crypto
-              tokens with the highest return possible.
-            </p> */}
-          {/* <FaPlus className="features__icon" /> */}
-          {/* </div> */}
           {/* accordian section here  */}
-          <div className="w-[90%] m-auto">
+          <div className=" w-[80%] md:w-[90%] m-auto">
             {/* Accordian */}
             <aside>
               <div className="mx-auto max-w-5xl mt-8 grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -820,25 +797,26 @@ const LandingPage = () => {
             multi-million dollar portfolio
           </h1>
           <div className="mt-10 w-full flex flex-col md:flex-row">
-            <div className="w-full md:w-[50%] hidden md:block  space-y-4 p-6">
-              {/* <div className="h-[200px] border-2 border-primary">
-                <img src="/people.jpg" />
-              </div> */}
-              {/* <div className="mt-2 h-[200px] border-2 border-primary">
-                <img src="/people.jpg" />
-              </div> */}
-              {/* <div className="mt-2 h-[200px] border-2 border-primary"> */}
-              <img src="/people.jpg" className="mt-2 h-[200px]" />
-              <img src="/people.jpg" className="mt-2 h-[200px]" />
-              <img src="/people.jpg" className="mt-2 h-[200px]" />
-              <img src="/people.jpg" className="mt-2 h-[200px]" />
-              {/* </div> */}
-              {/* <div className="mt-2 h-[200px] border-2 border-primary">
-                <img src="/people.jpg" />
-              </div> */}
+            <div className="w-full md:w-[50%]  hidden md:block  space-y-4 p-6">
+              <img
+                className="mt-2 w-[60%] h-[200px] m-auto shadow-md rounded-md shadow-gray-200"
+                src="/photo1.jpg"
+              />
+              <img
+                src="/photo2.jpg"
+                className="mt-2 w-[60%] h-[200px] m-auto shadow-md rounded-md shadow-gray-200"
+              />
+              <img
+                src="/photo3.jpg"
+                className="mt-2 w-[60%] h-[200px] m-auto shadow-md rounded-md shadow-gray-200"
+              />
+              <img
+                src="/photo4.jpg"
+                className="mt-2 w-[60%] h-[200px] m-auto shadow-md rounded-md shadow-gray-200"
+              />
             </div>
             <div className="w-full md:w-[50%] space-y-4 p-6">
-              <div className="h-[200px]">
+              <div className="md:h-[200px]">
                 <details className="group rounded-md px-3">
                   <summary className="font-semibold flex cursor-pointer list-none items-center justify-between py-4 text-lg  text-secondary-900 group-open:text-primary-500">
                     <div className="flex flex-row justify-start gap-x-3 items-center">
@@ -898,7 +876,7 @@ const LandingPage = () => {
                   </div>
                 </details>
               </div>
-              <div className="h-[200px]">
+              <div className="md:h-[200px]">
                 <details className="group rounded-md px-3">
                   <summary className="font-semibold flex cursor-pointer list-none items-center justify-between py-4 text-lg  text-secondary-900 group-open:text-primary-500">
                     <div className="flex flex-row justify-start gap-x-3 items-center">
@@ -959,7 +937,7 @@ const LandingPage = () => {
                   </div>
                 </details>
               </div>
-              <div className="h-[200px]">
+              <div className="md:h-[200px]">
                 <details className="group rounded-md px-3">
                   <summary className="font-semibold flex cursor-pointer list-none items-center justify-between py-4 text-lg  text-secondary-900 group-open:text-primary-500">
                     <div className="flex flex-row justify-start gap-x-3 items-center">
@@ -1083,32 +1061,31 @@ const LandingPage = () => {
           </div>
         </section>
         {/* Ride the crypto wave section */}
-        <section
-          className="mt-10 w-[90%] py-2 border-2 m-auto p-2 "
-          style={{
-            backgroundImage:
-              "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./people.jpg'))",
-
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-          }}
-        >
-          <h1 className=" m-auto mt-10 text-black font-bold text-4xl text-center">
+        <section className="rounded-md relative mt-10 h-[500px] md:w-[90%] md:h-auto py-10 border-2 m-auto p-2 overflow-hidden">
+          <video
+            className="rounded-md  absolute top-0 left-0 w-full h-full object-cover z-[-2]"
+            autoPlay
+            loop
+            muted
+          >
+            <source src={`vid2.MP4`} type="video/mp4" />
+          </video>
+          <div className="absolute top-0 left-0 w-full md:h-full bg-black opacity-50 z-[-1]"></div>
+          <h1 className="mt-10 text-white font-bold text-lg md:text-4xl text-center">
             Escape the financial rat race & earn <br />
             generational wealth in the 2024 bull run
           </h1>
           {/* Text Div */}
-          <div className="text__section ">
+          <div className="text__section mt-2 md:mt-4 text-white text-center">
             <p>
               Making money in crypto is all about the information you consume.
             </p>
-
-            <p>
+            <p className="hidden md:visible">
               Good information equals positive returns. Bad information equals
               losses. The best information equals 100X explosive portfolio
               growth.
             </p>
-            <p>
+            <p className="hidden md:visible">
               By leveraging Cryptonary's research, analysis and community, this
               explosive growth is a foregone conclusion.
             </p>
@@ -1147,11 +1124,22 @@ const LandingPage = () => {
             <div className="w-full max-w-xl p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8  ">
               <div className="p-4 ">
                 {/* button tab */}
+
                 <div className="flex flex-row justify-center items-center w-full">
-                  <button className="bg-gray-200  px-2 rounded-md w-24">
+                  <button
+                    className={`px-2 rounded-md w-24 ${
+                      activeTab === "monthly" ? "bg-primary" : "bg-gray-200"
+                    }`}
+                    onClick={() => setActiveTab("monthly")}
+                  >
                     Monthly
                   </button>
-                  <button className="bg-primary px-2 rounded-md w-24">
+                  <button
+                    className={`px-2 rounded-md w-24 ${
+                      activeTab === "yearly" ? "bg-primary" : "bg-gray-200"
+                    }`}
+                    onClick={() => setActiveTab("yearly")}
+                  >
                     Yearly
                   </button>
                 </div>
@@ -1164,18 +1152,7 @@ const LandingPage = () => {
                   <h2 className="text-black mt-4 text-2xl">$250.00</h2>
                 </div>
               </div>
-              {/* <h5 className="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">
-                Standard plan
-              </h5>
-              <div className="flex items-baseline text-gray-900 dark:text-white">
-                <span className="text-3xl font-semibold">$</span>
-                <span className="text-5xl font-extrabold tracking-tight">
-                  49
-                </span>
-                <span className="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">
-                  /month
-                </span>
-              </div> */}
+
               <ul role="list" className="space-y-5 my-7">
                 <li className="flex items-center">
                   <svg

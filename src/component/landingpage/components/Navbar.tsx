@@ -14,7 +14,7 @@ const Navbar: React.FC = () => {
 
   return (
     <>
-      <nav className="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
+      <nav className="bg-black border-gray-200 dark:bg-black dark:border-gray-700">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-2.5">
           <a
             href="#"
@@ -26,13 +26,13 @@ const Navbar: React.FC = () => {
               alt="Flowbite Logo"
             />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              Logo
+              CryptonaryBit
             </span>
           </a>
           <button
             onClick={toggleMainDropdown}
             type="button"
-            className="inline-flex items-center p-2 ms-3 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            className="inline-flex items-center p-2 ms-3 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-900 dark:focus:ring-gray-600"
             aria-expanded={isMainDropdownOpen ? "true" : "false"}
           >
             <span className="sr-only">Open main menu</span>
@@ -58,7 +58,7 @@ const Navbar: React.FC = () => {
             } w-full md:block md:w-auto`}
             id="main-navbar-dropdown"
           >
-            <ul className="flex flex-col font-medium p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:mt-0 md:text-sm  md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 md:space-x-8 md:rtl:space-x-reverse">
+            <ul className="flex flex-col font-medium p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:mt-0 md:text-sm  md:border-0 md:bg-white dark:bg-black md:dark:bg-black dark:border-gray-700 md:space-x-8 md:rtl:space-x-reverse">
               <li>
                 <a
                   href="#"
@@ -96,7 +96,7 @@ const Navbar: React.FC = () => {
                   <div
                     className={`${
                       isSubDropdownOpen ? "block" : "hidden"
-                    } z-10 absolute font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600`}
+                    } z-10 absolute font-normal bg-black divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-black dark:divide-gray-600`}
                     id="sub-navbar-dropdown"
                   >
                     <ul
