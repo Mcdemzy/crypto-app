@@ -1,0 +1,43 @@
+@media screen and (max-width: 600px) {
+  .etf__page {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 20px;
+    font-size: 1.2rem;
+  }
+
+  .etf__main-container h1 {
+    text-align: center;
+  }
+
+  .etf__main-container div {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+    text-decoration: underline;
+  }
+
+  .etf__featured {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-left: 24px;
+  }
+
+  .etf__main-display {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
+
+  .etf__main-text {
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .etf__main-text span {
+    font-weight: 400;
+  }
+}
