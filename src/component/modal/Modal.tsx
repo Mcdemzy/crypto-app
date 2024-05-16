@@ -1,5 +1,7 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./modal.css";
+import { AiOutlineClose } from "react-icons/ai";
+import CryptoIcon1 from "../../assets/crypto1.png";
 
 export default function Modal() {
   const [modal, setModal] = useState(false);
@@ -24,17 +26,23 @@ export default function Modal() {
         <div className="modal">
           <div onClick={toggleModal} className="overlay"></div>
           <div className="modal-content">
-            <h2>Hello Modal</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-              perferendis suscipit officia recusandae, eveniet quaerat assumenda
-              id fugit, dignissimos maxime non natus placeat illo iusto!
-              Sapiente dolorum id maiores dolores? Illum pariatur possimus
-              quaerat ipsum quos molestiae rem aspernatur dicta tenetur. Sunt
-              placeat tempora vitae enim incidunt porro fuga ea.
-            </p>
+            <h2>Send Bitcoin</h2>
+            <div className="modal-container">
+              <img src={CryptoIcon1} width={48} alt="" />
+
+              <div className="bitcoin__address-container">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Animi, labore.
+                </p>
+              </div>
+
+              {/* <div>
+                <a href="">Click here</a>
+              </div> */}
+            </div>
             <button className="close-modal" onClick={toggleModal}>
-              CLOSE
+              <AiOutlineClose />
             </button>
           </div>
         </div>

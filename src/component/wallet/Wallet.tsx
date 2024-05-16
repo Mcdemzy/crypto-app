@@ -1,4 +1,6 @@
+import { useState } from "react";
 import { BiBell } from "react-icons/bi";
+
 import {
   BsBoxArrowInDownLeft,
   BsBoxArrowUpRight,
@@ -17,8 +19,21 @@ import CryptoIcon4 from "../../assets/crypto4.png";
 import CryptoIcon5 from "../../assets/crypto5.png";
 import CryptoIcon6 from "../../assets/crypto6.png";
 import CryptoIcon7 from "../../assets/crypto7.png";
+import { AiOutlineClose } from "react-icons/ai";
 
 const Wallet = () => {
+  const [modal, setModal] = useState(false);
+
+  const toggleModal = () => {
+    setModal(!modal);
+  };
+
+  if (modal) {
+    document.body.classList.add("active-modal");
+  } else {
+    document.body.classList.remove("active-modal");
+  }
+
   return (
     <>
       <section className="wallet__component">
@@ -69,18 +84,41 @@ const Wallet = () => {
             <div className="flex justify-center items-center text-[1.5rem]">
               <IoMdStopwatch />
             </div>
-            <div className="wallet__links">
-              <a href="">
-                {" "}
-                <div className="flex flex-col justify-center items-center">
-                  <BsBoxArrowUpRight className="wallet__links-icon" />
-                  <span>Deposit</span>
-                </div>
-              </a>
+            <div onClick={toggleModal} className="wallet__links">
+              <div className="flex flex-col justify-center items-center">
+                <BsBoxArrowUpRight className="wallet__links-icon" />
+                <span>Deposit</span>
+              </div>
             </div>
           </div>
         </>
       </section>
+
+      {modal && (
+        <div className="modal">
+          <div onClick={toggleModal} className="overlay"></div>
+          <div className="modal-content">
+            <h2>Send Bitcoin</h2>
+            <div className="modal-container">
+              <img src={CryptoIcon1} width={48} alt="" />
+
+              <div className="bitcoin__address-container">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Animi, labore.
+                </p>
+              </div>
+
+              {/* <div>
+                <a href="">Click here</a>
+              </div> */}
+            </div>
+            <button className="close-modal" onClick={toggleModal}>
+              <AiOutlineClose />
+            </button>
+          </div>
+        </div>
+      )}
     </>
   );
 };

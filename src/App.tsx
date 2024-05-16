@@ -7,13 +7,14 @@ import Signup from "./component/signup/Signup";
 // import Banner from "./component/banner/Banner";
 // import Navbar from "./component/navbar/Navbar";
 // import Coming from "./component/coming/Coming";
-import MyChart from "./component/chart/Chart";
+import MyChart from "./component/chart/TradingViewWidget";
 import Dashboard from "./component/dashboard/Dashboard";
 import EtfFinancials from "./component/etf/EtfFinancials";
 import LandingPage from "./component/landingpage/LandingPage";
 import Wallet from "./component/wallet/Wallet";
 import Modal from "./component/modal/Modal";
-import Chart from "./component/chart/Chart";
+import Chart from "./component/chart/TradingViewWidget";
+import TradingViewWidget from "./component/chart/TradingViewWidget";
 
 function App() {
   return (
