@@ -10,11 +10,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@clerk/clerk-react": "^5.0.4",
-    "@cubejs-client/core": "^0.35.23",
-    "apexcharts": "^3.49.1",
-    "chart.js": "^4.4.2",
-    "highcharts": "^11.4.1",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.4",
     "react": "^18.2.0",
