@@ -9,7 +9,9 @@
 // import Coming from "./component/coming/Coming";
 // import Dashboard from "./component/dashboard/Dashboard";
 // import LandingPage from "./component/landingpage/LandingPage";
-import ContactUs from "./component/contactus/ContactUs";
+// import ContactUs from "./component/contactus/ContactUs";
+import AboutUs from "./component/aboutus/AboutUs";
+
 // import Wallet from "./component/wallet/Wallet";
 
 function App() {
@@ -28,7 +30,8 @@ function App() {
     // </Routes>
     // <Wallet />
     // <LandingPage />
-    <ContactUs/>
+    // <ContactUs/>
+    <AboutUs/>
   );
 }
 
