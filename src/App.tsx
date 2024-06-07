@@ -8,12 +8,12 @@
 // import Navbar from "./component/navbar/Navbar";
 // import Coming from "./component/coming/Coming";
 // import Dashboard from "./component/dashboard/Dashboard";
-// import LandingPage from "./component/landingpage/LandingPage";
+import LandingPage from "./component/landingpage/LandingPage";
 // import ContactUs from "./component/contactus/ContactUs";
 // import AboutUs from "./component/aboutus/AboutUs";
 // import AirDrop from "./component/airdrop/AirDrop";
 // import Wallet from "./component/wallet/Wallet";
-import PortfolioManagement from "./component/portfolio/PortfolioMangement";
+// import PortfolioManagement from "./component/portfolio/PortfolioMangement";
 
 function App() {
   return (
@@ -30,11 +30,12 @@ function App() {
     //   {/* Add more routes for other components if needed */}
     // </Routes>
     // <Wallet />
-    // <LandingPage />
+    <LandingPage />
+    
     // <ContactUs/>
     // <AboutUs/>
     // <AirDrop/>
-    <PortfolioManagement/>
+    // <PortfolioManagement/>
   );
 }
 
